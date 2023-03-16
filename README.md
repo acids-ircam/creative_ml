@@ -26,36 +26,108 @@ _July_   6, 13
 
 ## Structure of the course
 
-- [00 - Introduction and setup](00_introduction.pdf)
+- [00 - Introduction](00_introduction.pdf)
+General introduction
+Application examples
+Course specificities
+Install and setup
+Pre-requisites
+Toolboxes and tutorials
+Introducing machine learning
+
 - [01 - Machine learning](01_machine_learning.pdf)
     - [Notebook - Machine learning](01a_machine_learning.ipynb)
     - [Notebook - Feature-based learning](01b_feature_based_learning.ipynb)
-Stating the problem and classical definitions
+Problem statement
+Classical problems
+Linear models for regression and classification
+Optimization and Initialization
+Overfitting and cross-validation
+Properties and complexity
+
 - [02 - Neural networks](02_neural_networks.pdf)
-    - [Notebook - Neural networks](02a_neural_networks.ipynb)
-    - [Notebook - Advanced networks](02b_advanced_networks.ipynb)
-- [03 - Support Vector Machines](03_support_vector_machines.pdf)
-    - [Notebook - Support vector machines](03_support_vector_machines.ipynb)
-- [04 - Probabilities and distributions](04_probabilities_and_distributions.pdf)
-    - [Notebook - Probabilities](04a_probabilities.ipynb)
-    - [Notebook - Distributions](04b_distributions.ipynb)
-- [05 - Bayesian inference](05_bayesian_inference.pdf)
-    - [Notebook - Bayesian inference](05a_bayesian_inference.ipynb)
-- [06 - Latent models and Expectation-Maximization (EM)](06_latent_expectation_maximization.pdf)
+    - [Notebook - Neural networks](02_neural_networks.ipynb)
+Brief history
+The artificial neuron
+Geometric perspective on neurons
+Gradient descent
+Multi-layer perceptron
+Backpropagation
+
+- [03 - Advanced Neural Networks](03_advanced_networks.pdf)
+    - [Notebook - Advanced networks](03_advanced_networks.ipynb)
+Convolution
+Convolutional NN
+Recurrent NN
+Regularization
+
+- [04 - Deep learning](04_deep_learning.pdf)
+    - [Notebook - Deep learning](04a_deep_learning.ipynb)
+    - [Notebook - Auto-encoders](04b_auto_encoders.ipynb)
+Residual networks
+Attention and transformers
+Auto-encoders
+Modern applications
+
+- [05 - Probabilities and Bayesian inference](04_probabilities_bayesian.pdf)
+    - [Notebook - Probabilities and distributions](05a_probabilities.ipynb)
+    - [Notebook - Bayesian inference](05b_bayesian_inference.ipynb)
+Rules of probability
+Conditional and marginal
+Expectation
+Notable distributions
+Sampling
+Bayesian probability
+Probabilistic inference
+Maximum A Posteriori
+Maximum Likelihood
+Conjugate distributions
+    
+- [06 - Latent models](06_latent_expectation_maximization.pdf)
     - [Notebook - Latent clustering and kMeans](06a_latent_models.ipynb)
-- [07 - Gaussian Mixtures Models (GMM)](07_gaussian_mixture_models.pdf)
-    - [Notebook - Gaussian Mixture Models](07_gaussian_mixture_models.ipynb)
-- [08 - Approximate inference (sampling and variational)](08_approximate_inference.ipynb)
-    - [Notebook - Sampling](08a_sampling_mcmc.ipynb)
-- [09 - Deep learning general](09_deep_learning_pytorch.pdf)
-    - [Notebook - Auto-encoders](09a_auto_encoders.ipynb)
-    - [Notebook - Pytorch](09b_pytorch.ipynb)
-- [10 - Variational Auto-Encoder (VAE) and flows](10_variational_ae_flows.pdf)
-    - [Notebook - Variational auto-encoders](10a_variational_auto_encoders.ipynb)
-    - [Notebook - Normalizing flows](10b_normalizing_flows.ipynb)
-- [11 - Adversarial learning](11_adversarial_learning.pdf)
-    - [Notebook - Normalizing flows](11a_generative_adversarial_network.ipynb)
-- [12 - Audio applications (project)]
+    - [Notebook - Gaussian Mixture Models](06b_gaussian_mixture_models.ipynb)
+Unsupervised learning
+Clustering
+Latent variables
+Expectation-Maximization
+Q-Function
+Variational derivation
+Gaussian Mixtures
+
+- [07 - Approximate inference](07a_approximate_inference.ipynb)
+    - [Notebook - Sampling](07b_sampling_mcmc.ipynb)
+Sampling
+Monte-Carlo and rejection
+Metropolis-Hastings
+Variational inference
+Deriving variational inference
+    
+- [08 - Variational Auto-Encoder (VAE) and flows](08_variational_ae_flows.pdf)
+    - [Notebook - Variational auto-encoders](08a_variational_auto_encoders.ipynb)
+    - [Notebook - Normalizing flows](08b_normalizing_flows.ipynb)
+Auto-Encoders
+Variational Inference
+VAEs and properties
+beta-VAE and disentanglement
+Normalizing flows
+Flows in VAEs
+    
+- [09 - Adversarial learning](09_adversarial_learning.pdf)
+    - [Notebook - Generative Adversarial Networks](09a_generative_adversarial_network.ipynb)
+Estimating by comparing
+Deriving the adversarial objective
+Generative Adversarial Networks
+Adversarial attacks
+Flaws of GANs
+Modern applications
+
+- [10 - Diffusion models](10_diffusion_models.pdf)
+    - [Notebook - Diffusion models](10a_diffusion_models.ipynb)
+Diffusion models
+Score-based approach
+Langevin dynamics
+
+- [11 - Guest lecture]
 
 ## Installation and dependencies
 
