@@ -10,14 +10,19 @@ Please first follow the installation procedure (see next section) to ensure that
 
 ## Administrative details (current session)
 
-Type: 2-credits graduate school course  
-Period: April - July 2023
-Span: 13 classes of 105 minutes
-Date: Thursday at 2:55 - 4:10 
-Onsite: Room 214, 2nd Floor, Sci. 7 Building 
-Online: https://u-tokyo-ac-jp.zoom.us/j/81363691008?pwd=cmxiRURMdm9udXBKbTNjQkZvblNFQT09
+**Type**   : 2-credits graduate school course  \\
+**Period** : April - July 2023 \\
+**Span**   : 13 classes of 105 minutes \\
+**Date**   : Thursday at 2:55 - 4:10 \\
+**Onsite** : Room 214, 2nd Floor, Sci. 7 Building \\
+**Online** : https://u-tokyo-ac-jp.zoom.us/j/81363691008?pwd=cmxiRURMdm9udXBKbTNjQkZvblNFQT09
 
-Full calendar: Room 214, 2nd Floor, Sci. 7 Building 
+**Full calendar** \\
+_April_  6, 13, 20, 27 \\
+_May_    11, 18, 25 (4th is public holiday) \\
+_June_   8, 15, 22, 29 (1st is midterm exam date) \\
+_July_   6, 13
+
 
 ## Structure of the course
 
