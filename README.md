@@ -110,7 +110,7 @@ and model properties and complexity that are still quintessential in modern mach
 
 ---
 
-## [02 - Neural networks](02_neural_networks.pdf)
+### [02 - Neural networks](02_neural_networks.pdf)
 
 - [Notebook - Neural networks](02_neural_networks.ipynb)
 
@@ -127,7 +127,7 @@ of multi-layer perceptrons. Finally, we discuss the complete implementation of b
 
 ---
 
-## [03 - Advanced neural networks](03_advanced_networks.pdf)
+### [03 - Advanced neural networks](03_advanced_networks.pdf)
 
 - [Notebook - Advanced networks](03_advanced_networks.ipynb)
 
@@ -142,7 +142,7 @@ We further discuss issues of regularization and initialization in networks.
 
 ---
 
-## [04 - Deep learning](04_deep_learning.pdf)
+### [04 - Deep learning](04_deep_learning.pdf)
 
 - [Notebook - Deep learning](04a_deep_learning.ipynb)
 - [Notebook - Auto-encoders](04b_auto_encoders.ipynb)
@@ -153,6 +153,7 @@ We further discuss issues of regularization and initialization in networks.
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
 Residual networks
+We finish this course by discussing the recent attention mechanism and transformer architectures
 Attention and transformers
 Auto-encoders
 Modern applications
@@ -160,7 +161,7 @@ Modern applications
 
 ---
 
-## [05 - Probabilities and Bayesian inference](04_probabilities_bayesian.pdf)
+### [05 - Probabilities and Bayesian inference](04_probabilities_bayesian.pdf)
 
 - [Notebook - Probabilities and distributions](05a_probabilities.ipynb)
 - [Notebook - Bayesian inference](05b_bayesian_inference.ipynb)
@@ -183,7 +184,7 @@ Conjugate distributions
     
 ---
 
-## [06 - Latent models](06_latent_expectation_maximization.pdf)
+### [06 - Latent models](06_latent_expectation_maximization.pdf)
 
 - [Notebook - Latent clustering and kMeans](06a_latent_models.ipynb)
 - [Notebook - Gaussian Mixture Models](06b_gaussian_mixture_models.ipynb)
@@ -204,7 +205,7 @@ Gaussian Mixtures
 
 ---
 
-## [07 - Approximate inference](07a_approximate_inference.ipynb)
+### [07 - Approximate inference](07a_approximate_inference.ipynb)
 
 - [Notebook - Sampling](07b_sampling_mcmc.ipynb)
 
@@ -222,7 +223,7 @@ Deriving variational inference
 
 ---
 
-## [08 - Variational Auto-Encoder (VAE) and flows](08_variational_ae_flows.pdf)
+### [08 - Variational Auto-Encoder (VAE) and flows](08_variational_ae_flows.pdf)
 
 - [Notebook - Variational auto-encoders](08a_variational_auto_encoders.ipynb)
 - [Notebook - Normalizing flows](08b_normalizing_flows.ipynb)
@@ -243,7 +244,7 @@ Flows in VAEs
 
 ---
 
-##[09 - Adversarial learning](09_adversarial_learning.pdf)
+### [09 - Adversarial learning](09_adversarial_learning.pdf)
 
 - [Notebook - Generative Adversarial Networks](09a_generative_adversarial_network.ipynb)
 
@@ -262,7 +263,7 @@ Modern applications
 
 ---
 
-## [10 - Diffusion models](10_diffusion_models.pdf)
+### [10 - Diffusion models](10_diffusion_models.pdf)
 
 - [Notebook - Diffusion models](10a_diffusion_models.ipynb)
 
@@ -271,9 +272,9 @@ Modern applications
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-Diffusion models
-Score-based approach
-Langevin dynamics
+These tutorials explores the new class of generative models based on diffusion probabilistic models. 
+This class of models is inspired by thermodynamics, but also denoising score matching, Langevin dynamics and autoregressive decoding.
+We will also discuss the more recent development of denoising diffusion implicit models and the wavegrad model, which is based on the same core principles but applies this class of models for audio data.
 
 
 ---
