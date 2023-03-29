@@ -60,17 +60,20 @@ own coding environment.
 
 ---
 
-**Quick explanation.** For each of the following lessons, you will find a set of badges containing links to different parts of the course, which allows you to follow either the _online_ (
+**Quick explanation.** For each of the following lessons, you will find a set of badges containing links to different parts of the course, which allows you to follow either the _online_ 
+or _offline_ versions.
+
+- Online:
 [![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://github.com/acids-ircam/ddsp_pytorch) 
 [![Colab](https://img.shields.io/badge/Notebook-collab-7DA416.svg?style=flat-square&logo=googlecolab)](https://arxiv.org/abs/2001.04643) 
-)
-or _offline_ (
+- Offline: 
 [![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](https://github.com/acids-ircam/ddsp_pytorch) 
 [![Notebook](https://img.shields.io/badge/Notebook-download-167DA4.svg?style=flat-square&logo=jupyter)](https://github.com/acids-ircam/ddsp_pytorch) 
-) versions.
+
 Simply click on the corresponding badge to follow the lesson. Note that if the badge is displayed in red color as follows 
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 it means that the content is not available yet and will be uploaded later. 
+Also note that some courses might contain multiple notebooks and extra information, which will be clearly indicated in that case.
 
 
 ### [00 - Introduction](00_introduction.pdf)
