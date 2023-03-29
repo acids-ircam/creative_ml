@@ -222,18 +222,29 @@ jupyter lab
 
 These administrative details concerns only the current physical session attached to the corresponding university.
 
-**Type**   : 2-credits graduate school course  \\
-**Period** : April - July 2023 \\
-**Span**   : 13 classes of 105 minutes \\
-**Date**   : Thursday at 2:55 - 4:40 pm (JST Time) \\
-**Onsite** : Room 214, 2nd Floor, Sci. 7 Building \\
-**Online** : https://u-tokyo-ac-jp.zoom.us/j/81363691008?pwd=cmxiRURMdm9udXBKbTNjQkZvblNFQT09
-
-**Full calendar** \\
-_April_  6, 13, 20, 27 \\
-_May_    11, 18, 25 (4th is public holiday) \\
-_June_   8, 15, 22, 29 (1st is midterm exam date) \\
-_July_   6, 13
+| **Course details** |
+| **Type**   | 2-credits graduate school course  |
+| **Period** | April - July 2023 |
+| **Span**   | 13 classes of 105 minutes |
+| **Date**   | Thursday at 2:55 - 4:40 pm (JST Time) |
+| **Onsite** | Room 214, 2nd Floor, Sci. 7 Building |
+| **Online** | https://u-tokyo-ac-jp.zoom.us/j/81363691008?pwd=cmxiRURMdm9udXBKbTNjQkZvblNFQT09 |
+| **Full calendar** |
+| April 6 | 00 - Introduction |
+| April 13 | 01 - Machine learning |
+| April 20 | 02 - Neural networks |
+| April 27 | 03 - Advanced networks |
+| May 4 | **National holiday** |
+| May 11 | 04 - Deep learning |
+| May 18 | 05 - Bayesian inference |
+| May 25 | 06 - Latent models |
+| June 1 | **Midterm exam** |
+| June 8 | 07 - Approximate inference |
+| June 15 | 08 - VAEs and flows |
+| June 22 | 09 - Adversarial networks |
+| June 29 | 10 - Diffusion models |
+| July 6 | 11 - Guest lecture #1 |
+| July 13 | 12 - Guest lecture #2 |
 
 
 ## Contribution
