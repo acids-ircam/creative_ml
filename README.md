@@ -222,7 +222,8 @@ jupyter lab
 
 These administrative details concerns only the current physical session attached to the corresponding university.
 
-| **Course details** |
+### Course details
+
 |----------|:-------------:|
 | **Type**   | 2-credits graduate school course  |
 | **Period** | April - July 2023 |
@@ -232,7 +233,8 @@ These administrative details concerns only the current physical session attached
 | **Online** | https://u-tokyo-ac-jp.zoom.us/j/81363691008?pwd=cmxiRURMdm9udXBKbTNjQkZvblNFQT09 |
 
 
-| **Full calendar** ||
+### Full calendar
+
 |----------|:-------------:|
 | April 6 | 00 - Introduction |
 | April 13 | 01 - Machine learning |
