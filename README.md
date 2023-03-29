@@ -223,6 +223,7 @@ jupyter lab
 These administrative details concerns only the current physical session attached to the corresponding university.
 
 | **Course details** |
+|----------|:-------------:|
 | **Type**   | 2-credits graduate school course  |
 | **Period** | April - July 2023 |
 | **Span**   | 13 classes of 105 minutes |
@@ -230,6 +231,7 @@ These administrative details concerns only the current physical session attached
 | **Onsite** | Room 214, 2nd Floor, Sci. 7 Building |
 | **Online** | https://u-tokyo-ac-jp.zoom.us/j/81363691008?pwd=cmxiRURMdm9udXBKbTNjQkZvblNFQT09 |
 | **Full calendar** |
+|----------|:-------------:|------:|
 | April 6 | 00 - Introduction |
 | April 13 | 01 - Machine learning |
 | April 20 | 02 - Neural networks |
