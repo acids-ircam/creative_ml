@@ -231,3 +231,12 @@ _April_  6, 13, 20, 27 \\
 _May_    11, 18, 25 (4th is public holiday) \\
 _June_   8, 15, 22, 29 (1st is midterm exam date) \\
 _July_   6, 13
+
+
+## Contribution
+
+Please take a look at our [contributing](CONTRIBUTING.md) guidelines if you're interested in helping!
+
+## About
+
+Code and documentation copyright 2012-2023 by all members of ACIDS. Code released under the [CC-BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/).
