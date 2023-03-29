@@ -52,7 +52,7 @@ You also need to get the audio datasets from this [link ![](../images/file.png)]
 ## Lessons
 
 ### [00 - Introduction](00_introduction.pdf)
-
+---
 [![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googlecloud)](https://github.com/acids-ircam/ddsp_pytorch) 
 [![Powerpoint](https://img.shields.io/badge/Slides_PDF-download-7DA416.svg?style=flat-square&logo=microsoftpowerpoint)](https://github.com/acids-ircam/ddsp_pytorch) 
 [![Colab](https://img.shields.io/badge/Notebook-collab-7DA416.svg?style=flat-square&logo=googlecolab)](https://arxiv.org/abs/2001.04643) 
