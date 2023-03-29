@@ -22,7 +22,7 @@
 This repository contains the courses in machine learning applied to music and other creative mediums.
 This course is currently given at the University of Tokyo (Japan), and along the [ATIAM Masters](http://atiam.ircam.fr) at IRCAM, Paris (France). 
 The courses slides along with a set of interactive Jupyter Notebooks will be updated along the year to provide all the ML program.
-This course is proudly provided by the <a href="http://acids.ircam.fr" target="_blank">ACIDS</a> team.
+This course is proudly provided by the <a href="http://github.com/acids-ircam" target="_blank">ACIDS</a> team.
 This course can be followed entirely online through the set of [Google slides](http://slides.google.com) and [Colab](http://colab.google.com) notebooks links provided openly along each lesson.
 However, we do recommend to fork the entire environment and follow the interactive notebooks through Jupyter lab to develop your
 own coding environment.
@@ -149,6 +149,12 @@ Regularization
 
 - [Notebook - Deep learning](04a_deep_learning.ipynb)
 - [Notebook - Auto-encoders](04b_auto_encoders.ipynb)
+
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+
 Residual networks
 Attention and transformers
 Auto-encoders
@@ -158,8 +164,15 @@ Modern applications
 ---
 
 ## [05 - Probabilities and Bayesian inference](04_probabilities_bayesian.pdf)
+
 - [Notebook - Probabilities and distributions](05a_probabilities.ipynb)
 - [Notebook - Bayesian inference](05b_bayesian_inference.ipynb)
+
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+
 Rules of probability
 Conditional and marginal
 Expectation
@@ -174,8 +187,15 @@ Conjugate distributions
 ---
 
 ## [06 - Latent models](06_latent_expectation_maximization.pdf)
-    - [Notebook - Latent clustering and kMeans](06a_latent_models.ipynb)
-    - [Notebook - Gaussian Mixture Models](06b_gaussian_mixture_models.ipynb)
+
+- [Notebook - Latent clustering and kMeans](06a_latent_models.ipynb)
+- [Notebook - Gaussian Mixture Models](06b_gaussian_mixture_models.ipynb)
+
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+
 Unsupervised learning
 Clustering
 Latent variables
@@ -188,7 +208,14 @@ Gaussian Mixtures
 ---
 
 ## [07 - Approximate inference](07a_approximate_inference.ipynb)
-    - [Notebook - Sampling](07b_sampling_mcmc.ipynb)
+
+- [Notebook - Sampling](07b_sampling_mcmc.ipynb)
+
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+
 Sampling
 Monte-Carlo and rejection
 Metropolis-Hastings
@@ -199,8 +226,16 @@ Deriving variational inference
 ---
 
 ## [08 - Variational Auto-Encoder (VAE) and flows](08_variational_ae_flows.pdf)
-    - [Notebook - Variational auto-encoders](08a_variational_auto_encoders.ipynb)
-    - [Notebook - Normalizing flows](08b_normalizing_flows.ipynb)
+
+- [Notebook - Variational auto-encoders](08a_variational_auto_encoders.ipynb)
+- [Notebook - Normalizing flows](08b_normalizing_flows.ipynb)
+
+
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+
 Auto-Encoders
 Variational Inference
 VAEs and properties
@@ -212,7 +247,14 @@ Flows in VAEs
 ---
 
 ##[09 - Adversarial learning](09_adversarial_learning.pdf)
-    - [Notebook - Generative Adversarial Networks](09a_generative_adversarial_network.ipynb)
+
+- [Notebook - Generative Adversarial Networks](09a_generative_adversarial_network.ipynb)
+
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+
 Estimating by comparing
 Deriving the adversarial objective
 Generative Adversarial Networks
@@ -226,6 +268,12 @@ Modern applications
 ## [10 - Diffusion models](10_diffusion_models.pdf)
 
 - [Notebook - Diffusion models](10a_diffusion_models.ipynb)
+
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+
 Diffusion models
 Score-based approach
 Langevin dynamics
