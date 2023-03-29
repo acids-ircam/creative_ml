@@ -143,17 +143,23 @@ Convolutional NN
 Recurrent NN
 Regularization
 
-- [04 - Deep learning](04_deep_learning.pdf)
-    - [Notebook - Deep learning](04a_deep_learning.ipynb)
-    - [Notebook - Auto-encoders](04b_auto_encoders.ipynb)
+---
+
+## [04 - Deep learning](04_deep_learning.pdf)
+
+- [Notebook - Deep learning](04a_deep_learning.ipynb)
+- [Notebook - Auto-encoders](04b_auto_encoders.ipynb)
 Residual networks
 Attention and transformers
 Auto-encoders
 Modern applications
 
-- [05 - Probabilities and Bayesian inference](04_probabilities_bayesian.pdf)
-    - [Notebook - Probabilities and distributions](05a_probabilities.ipynb)
-    - [Notebook - Bayesian inference](05b_bayesian_inference.ipynb)
+
+---
+
+## [05 - Probabilities and Bayesian inference](04_probabilities_bayesian.pdf)
+- [Notebook - Probabilities and distributions](05a_probabilities.ipynb)
+- [Notebook - Bayesian inference](05b_bayesian_inference.ipynb)
 Rules of probability
 Conditional and marginal
 Expectation
@@ -165,7 +171,9 @@ Maximum A Posteriori
 Maximum Likelihood
 Conjugate distributions
     
-- [06 - Latent models](06_latent_expectation_maximization.pdf)
+---
+
+## [06 - Latent models](06_latent_expectation_maximization.pdf)
     - [Notebook - Latent clustering and kMeans](06a_latent_models.ipynb)
     - [Notebook - Gaussian Mixture Models](06b_gaussian_mixture_models.ipynb)
 Unsupervised learning
@@ -176,7 +184,10 @@ Q-Function
 Variational derivation
 Gaussian Mixtures
 
-- [07 - Approximate inference](07a_approximate_inference.ipynb)
+
+---
+
+## [07 - Approximate inference](07a_approximate_inference.ipynb)
     - [Notebook - Sampling](07b_sampling_mcmc.ipynb)
 Sampling
 Monte-Carlo and rejection
@@ -184,7 +195,10 @@ Metropolis-Hastings
 Variational inference
 Deriving variational inference
     
-- [08 - Variational Auto-Encoder (VAE) and flows](08_variational_ae_flows.pdf)
+
+---
+
+## [08 - Variational Auto-Encoder (VAE) and flows](08_variational_ae_flows.pdf)
     - [Notebook - Variational auto-encoders](08a_variational_auto_encoders.ipynb)
     - [Notebook - Normalizing flows](08b_normalizing_flows.ipynb)
 Auto-Encoders
@@ -194,7 +208,10 @@ beta-VAE and disentanglement
 Normalizing flows
 Flows in VAEs
     
-- [09 - Adversarial learning](09_adversarial_learning.pdf)
+
+---
+
+##[09 - Adversarial learning](09_adversarial_learning.pdf)
     - [Notebook - Generative Adversarial Networks](09a_generative_adversarial_network.ipynb)
 Estimating by comparing
 Deriving the adversarial objective
@@ -203,13 +220,20 @@ Adversarial attacks
 Flaws of GANs
 Modern applications
 
-- [10 - Diffusion models](10_diffusion_models.pdf)
-    - [Notebook - Diffusion models](10a_diffusion_models.ipynb)
+
+---
+
+## [10 - Diffusion models](10_diffusion_models.pdf)
+
+- [Notebook - Diffusion models](10a_diffusion_models.ipynb)
 Diffusion models
 Score-based approach
 Langevin dynamics
 
-- [11 - Guest lecture]
+
+---
+
+## [11 - Guest lecture]
 
 ## Setup
 
