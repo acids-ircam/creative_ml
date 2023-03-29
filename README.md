@@ -119,7 +119,6 @@ and model properties and complexity that are still quintessential in modern mach
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-
 This course provides a brief history of the development of neural networks along with all mathematical and implementation details. 
 We discuss geometric perspectives on neurons and gradient descent and how these interpretation naturally extend to the case
 of multi-layer perceptrons. Finally, we discuss the complete implementation of backpropagation through micro-grad.
@@ -136,7 +135,7 @@ of multi-layer perceptrons. Finally, we discuss the complete implementation of b
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-In these course we introduce more advanced types of neural networks such as convolutional and recurrent architectures, along
+In this course we introduce more advanced types of neural networks such as convolutional and recurrent architectures, along
 with more advanced models (LSTM, GRU) and recent developments such as residual architectures.
 We further discuss issues of regularization and initialization in networks.
 
@@ -152,11 +151,10 @@ We further discuss issues of regularization and initialization in networks.
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-Residual networks
-We finish this course by discussing the recent attention mechanism and transformer architectures
-Attention and transformers
-Auto-encoders
-Modern applications
+We introduce here the fundamental shift towards deep learning, notably through the development of layerwise training 
+and auto-encoders. We discuss how these are now less relevant through novel regularization methods and data availability.
+We finish this course by discussing the recent attention mechanism and transformer architectures and
+provide a set of modern applications.
 
 
 ---
@@ -171,16 +169,9 @@ Modern applications
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-Rules of probability
-Conditional and marginal
-Expectation
-Notable distributions
-Sampling
-Bayesian probability
-Probabilistic inference
-Maximum A Posteriori
-Maximum Likelihood
-Conjugate distributions
+To operate the shift towards generative models, we introduce here the fundamentals of probabilities, distribution and inference.
+We discuss several properties and introduce Bayesian inference by developing the mathematical foundations of 
+Maximum A Posteriori (MAP) and Maximum Likelihood (ML) techniques.
     
 ---
 
@@ -194,14 +185,9 @@ Conjugate distributions
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-Unsupervised learning
-Clustering
-Latent variables
-Expectation-Maximization
-Q-Function
-Variational derivation
-Gaussian Mixtures
-
+We discuss the distinction between supervised and unsupervised learning, through the first context of clustering. 
+This allows to introduce the notion of latent variables and how we can solve for this using Expectation-Maximization (EM).
+We provide the full derivation through Variational inference and discuss the implementation of Gaussian Mixture Models (GMM)
 
 ---
 
@@ -214,11 +200,8 @@ Gaussian Mixtures
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-Sampling
-Monte-Carlo and rejection
-Metropolis-Hastings
-Variational inference
-Deriving variational inference
+We introduce here the notion of approximate inference, through historical applications of sampling with Monte-Carlo and Metropolis-Hastings.
+We further show how variational inference can provide an elegant solution to our estimation problems and discuss its implications.
     
 
 ---
@@ -234,12 +217,9 @@ Deriving variational inference
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-Auto-Encoders
-Variational Inference
-VAEs and properties
-beta-VAE and disentanglement
-Normalizing flows
-Flows in VAEs
+We show how fusing Auto-Encoders and variational inference leads to the Variational Auto-Encoder (VAE), a powerful generative models.
+We discuss issues of disentanglement and posterior collapse and introduce the recent Normalizing Flows and how these can be 
+used in generative contexts.
     
 
 ---
@@ -253,12 +233,9 @@ Flows in VAEs
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-Estimating by comparing
-Deriving the adversarial objective
-Generative Adversarial Networks
-Adversarial attacks
-Flaws of GANs
-Modern applications
+We introduce the notion of estimating by comparing and derive the complete adversarial objective naturally from this observation.
+After discussing adversarial attacks, we introduce Generative Adversarial Networks (GANs), which are still competitive generative
+models to this day. We discuss flaws and limitations of GANs and introduce their modern applications.
 
 
 ---
@@ -272,7 +249,7 @@ Modern applications
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-These tutorials explores the new class of generative models based on diffusion probabilistic models. 
+This course explores the new class of generative models based on diffusion probabilistic models. 
 This class of models is inspired by thermodynamics, but also denoising score matching, Langevin dynamics and autoregressive decoding.
 We will also discuss the more recent development of denoising diffusion implicit models and the wavegrad model, which is based on the same core principles but applies this class of models for audio data.
 
