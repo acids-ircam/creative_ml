@@ -73,6 +73,7 @@ Simply click on the corresponding badge to follow the lesson. Note that if the b
 it means that the content is not available yet and will be uploaded later. 
 Also note that some courses might contain multiple notebooks and extra information, which will be clearly indicated in that case.
 
+
 ---
 
 ### [00 - Introduction](00_introduction.pdf)
@@ -88,6 +89,7 @@ This course provides a brief history of the development of artificial intelligen
 through a series of recent applications in the creative fields. This course also presents the pre-requisites, course specificities, toolboxes
 and tutorials that will be covered and how to setup the overall environment.
 
+
 ---
 
 ### [01 - Machine learning](01_machine_learning.pdf)
@@ -101,12 +103,10 @@ and tutorials that will be covered and how to setup the overall environment.
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
     
     
-Problem statement
-Classical problems
-Linear models for regression and classification
-Optimization and Initialization
-Overfitting and cross-validation
-Properties and complexity
+This course introduces the formal notions required to understand machine learning along with classic problems of linear models 
+for regression and classification. We discuss the mathematical derivation for optimization and various problems of overfitting, cross-validation
+and model properties and complexity that are still quintessential in modern machine learning.
+
 
 ---
 
@@ -120,12 +120,10 @@ Properties and complexity
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
 
-Brief history
-The artificial neuron
-Geometric perspective on neurons
-Gradient descent
-Multi-layer perceptron
-Backpropagation
+This course provides a brief history of the development of neural networks along with all mathematical and implementation details. 
+We discuss geometric perspectives on neurons and gradient descent and how these interpretation naturally extend to the case
+of multi-layer perceptrons. Finally, we discuss the complete implementation of backpropagation through micro-grad.
+
 
 ---
 
@@ -138,10 +136,9 @@ Backpropagation
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
-Convolution
-Convolutional NN
-Recurrent NN
-Regularization
+In these course we introduce more advanced types of neural networks such as convolutional and recurrent architectures, along
+with more advanced models (LSTM, GRU) and recent developments such as residual architectures.
+We further discuss issues of regularization and initialization in networks.
 
 ---
 
