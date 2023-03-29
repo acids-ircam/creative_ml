@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h3>**Creative Machine Learning** course and notebook tutorials in JAX, PyTorch and Numpy, by <a href="http://acids.ircam.fr" target="_blank">ACIDS</a>.</h3>
+<h3>Creative Machine Learning course and notebooks in JAX, PyTorch and Numpy.</h3>
 
 <h4>
   <a href="#lessons">Lessons</a> •
@@ -22,6 +22,7 @@
 This repository contains the courses in machine learning applied to music and other creative mediums.
 This course is currently given at the University of Tokyo (Japan), and along the ATIAM Masters at IRCAM, Paris (France). 
 The courses slides along with a set of interactive Jupyter Notebooks will be updated along the year to provide all the ML program.
+This course is proudly provided by the <a href="http://acids.ircam.fr" target="_blank">ACIDS</a> team.
 
 **As the development of this course is ongoing, please pull this repo regularly to stay updated. Also, please do not hesitate to post issues if you spot any mistake :)**
 
