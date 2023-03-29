@@ -65,7 +65,7 @@ Simply click on the corresponding badge to follow the lesson.
 
 |              Flavor | Type | Badge |
 | -----------------: | --------------: | ---------: |
-|            Online  |          Slides |            |
+|            Online                               |||
 | ^^                 |       Notebook  |   3--5 ATP |
 |            Offline |          Slides |      5 ATP |
 | ^^                 |       Notebook  |            |
