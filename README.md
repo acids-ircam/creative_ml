@@ -251,7 +251,7 @@ We will also discuss the more recent development of denoising diffusion implicit
 
 ---
 
-## 11 - Guest lecture
+### 11 - Guest lecture
 
 This year we are very happy to host two special guest lectures that are aimed to provide an advanced view
 on both the academic and industrial research currently undergoing in creative machine learning.
