@@ -20,14 +20,14 @@
 </div>
 
 This repository contains the courses in machine learning applied to music and other creative mediums.
-This course is currently given at the University of Tokyo (Japan), and along the ATIAM Masters at IRCAM, Paris (France). 
+This course is currently given at the University of Tokyo (Japan), and along the [ATIAM Masters](http://atiam.ircam.fr) at IRCAM, Paris (France). 
 The courses slides along with a set of interactive Jupyter Notebooks will be updated along the year to provide all the ML program.
 This course is proudly provided by the <a href="http://acids.ircam.fr" target="_blank">ACIDS</a> team.
-
-**As the development of this course is ongoing, please pull this repo regularly to stay updated. Also, please do not hesitate to post issues if you spot any mistake :)**
-
 Please first follow the installation procedure (see section) to ensure that you have all necessary libraries to follow the course smoothly. 
 You also need to get the audio datasets from this [link ![](../images/file.png)](https://nubo.ircam.fr/index.php/s/oRHRMCYNDXc5cWJ)   
+
+**As the development of this course is always ongoing, please pull this repo regularly to stay updated.**
+**Also, please do not hesitate to post issues or PRs if you spot any mistake (see the [#contribution](contribution section)?**
 
 <details>
   <summary>Table of Contents</summary>
@@ -52,6 +52,9 @@ You also need to get the audio datasets from this [link ![](../images/file.png)]
 ## Lessons
 
 - [00 - Introduction](00_introduction.pdf)
+[![Full repository](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Published in ArXiV](https://img.shields.io/badge/Paper-2001.04643-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2001.04643) 
+[![Video on YouTube](https://img.shields.io/badge/Video-PureData-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=_U6Bn-1FDHc&ab_channel=AntoineCaillon)
 General introduction
 Application examples
 Course specificities
