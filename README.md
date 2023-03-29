@@ -23,8 +23,9 @@ This repository contains the courses in machine learning applied to music and ot
 This course is currently given at the University of Tokyo (Japan), and along the [ATIAM Masters](http://atiam.ircam.fr) at IRCAM, Paris (France). 
 The courses slides along with a set of interactive Jupyter Notebooks will be updated along the year to provide all the ML program.
 This course is proudly provided by the <a href="http://acids.ircam.fr" target="_blank">ACIDS</a> team.
-Please first follow the installation procedure (see section) to ensure that you have all necessary libraries to follow the course smoothly. 
-You also need to get the audio datasets from this [link ![](../images/file.png)](https://nubo.ircam.fr/index.php/s/oRHRMCYNDXc5cWJ)   
+This course can be followed entirely online through the set of [Google slides](http://slides.google.com) and [Colab](http://colab.google.com) notebooks links provided openly along each lesson.
+However, we do recommend to fork the entire environment and follow the interactive notebooks through Jupyter lab to develop your
+own coding environment.
 
 **As the development of this course is always ongoing, please pull this repo regularly to stay updated.**
 **Also, please do not hesitate to post issues or PRs if you spot any mistake** (see the [contribution section](#contribution)).
@@ -52,6 +53,8 @@ You also need to get the audio datasets from this [link ![](../images/file.png)]
 ## Lessons
 
 ---
+
+**Quick explanation.** For each of the following lessons, you will find a set of badges containing links to different parts of the course. 
 
 ### [00 - Introduction](00_introduction.pdf)
 
