@@ -27,7 +27,7 @@ Please first follow the installation procedure (see section) to ensure that you 
 You also need to get the audio datasets from this [link ![](../images/file.png)](https://nubo.ircam.fr/index.php/s/oRHRMCYNDXc5cWJ)   
 
 **As the development of this course is always ongoing, please pull this repo regularly to stay updated.**
-**Also, please do not hesitate to post issues or PRs if you spot any mistake (see the [#contribution](contribution section)?**
+**Also, please do not hesitate to post issues or PRs if you spot any mistake** (see the [#contribution](contribution section)).
 
 <details>
   <summary>Table of Contents</summary>
