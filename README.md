@@ -60,19 +60,17 @@ own coding environment.
 
 ---
 
-**Quick explanation.** For each of the following lessons, you will find a set of badges containing links to different parts of the course, which allows you to follow either the _online_ or _offline_ version.
-Simply click on the corresponding badge to follow the lesson.
-
-|              Flavor | Type | Badge |
-| -----------------: | --------------: | ---------: |
-|            Online                               |||
-| ^^                 |       Notebook  |   3--5 ATP |
-|            Offline |          Slides |      5 ATP |
-| ^^                 |       Notebook  |            |
-
-Note that if the badge is displayed in red color as follows 
+**Quick explanation.** For each of the following lessons, you will find a set of badges containing links to different parts of the course, which allows you to follow either the _online_ (
+[![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Colab](https://img.shields.io/badge/Notebook-collab-7DA416.svg?style=flat-square&logo=googlecolab)](https://arxiv.org/abs/2001.04643) 
+)
+or _offline_ (
+[![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Notebook](https://img.shields.io/badge/Notebook-download-167DA4.svg?style=flat-square&logo=jupyter)](https://github.com/acids-ircam/ddsp_pytorch) 
+) versions.
+Simply click on the corresponding badge to follow the lesson. Note that if the badge is displayed in red color as follows 
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
-it means that the content is not available yet and will be uploaded later.
+it means that the content is not available yet and will be uploaded later. 
 
 
 ### [00 - Introduction](00_introduction.pdf)
