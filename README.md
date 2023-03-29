@@ -94,13 +94,10 @@ and tutorials that will be covered and how to setup the overall environment.
 
 ### [01 - Machine learning](01_machine_learning.pdf)
 
-- [Notebook - Machine learning](01a_machine_learning.ipynb)
-- [Notebook - Feature-based learning](01b_feature_based_learning.ipynb)
-
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](01a_machine_learning.ipynb) 
     
 This course introduces the formal notions required to understand machine learning along with classic problems of linear models 
 for regression and classification. We discuss the mathematical derivation for optimization and various problems of overfitting, cross-validation
@@ -109,18 +106,16 @@ and model properties and complexity that are still quintessential in modern mach
 **Additional notebook on feature-based learning**
 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](01b_feature_based_learning.ipynb) 
 
 ---
 
 ### [02 - Neural networks](02_neural_networks.pdf)
 
-- [Notebook - Neural networks](02_neural_networks.ipynb)
-
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](02_neural_networks.ipynb) 
 
 This course provides a brief history of the development of neural networks along with all mathematical and implementation details. 
 We discuss geometric perspectives on neurons and gradient descent and how these interpretation naturally extend to the case
@@ -131,12 +126,10 @@ of multi-layer perceptrons. Finally, we discuss the complete implementation of b
 
 ### [03 - Advanced neural networks](03_advanced_networks.pdf)
 
-- [Notebook - Advanced networks](03_advanced_networks.ipynb)
-
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](03_advanced_networks.ipynb) 
 
 In this course we introduce more advanced types of neural networks such as convolutional and recurrent architectures, along
 with more advanced models (LSTM, GRU) and recent developments such as residual architectures.
@@ -146,66 +139,65 @@ We further discuss issues of regularization and initialization in networks.
 
 ### [04 - Deep learning](04_deep_learning.pdf)
 
-- [Notebook - Deep learning](04a_deep_learning.ipynb)
-- [Notebook - Auto-encoders](04b_auto_encoders.ipynb)
-
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
-// Deep learning :
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
-// Auto-encoders :
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](04a_deep_learning.ipynb) 
 
 We introduce here the fundamental shift towards deep learning, notably through the development of layerwise training 
 and auto-encoders. We discuss how these are now less relevant through novel regularization methods and data availability.
 We finish this course by discussing the recent attention mechanism and transformer architectures and
 provide a set of modern applications.
 
+**Additional notebook on auto-encoders**
+
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](04b_auto_encoders.ipynb)
 
 ---
 
 ### [05 - Probabilities and Bayesian inference](04_probabilities_bayesian.pdf)
 
-- [Notebook - Probabilities and distributions](05a_probabilities.ipynb)
-- [Notebook - Bayesian inference](05b_bayesian_inference.ipynb)
-
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](05a_probabilities.ipynb) 
 
 To operate the shift towards generative models, we introduce here the fundamentals of probabilities, distribution and inference.
 We discuss several properties and introduce Bayesian inference by developing the mathematical foundations of 
 Maximum A Posteriori (MAP) and Maximum Likelihood (ML) techniques.
     
+**Additional notebook on Bayesian inference**
+
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](05b_bayesian_inference.ipynb) 
+
 ---
 
 ### [06 - Latent models](06_latent_expectation_maximization.pdf)
 
-- [Notebook - Latent clustering and kMeans](06a_latent_models.ipynb)
-- [Notebook - Gaussian Mixture Models](06b_gaussian_mixture_models.ipynb)
-
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](06a_latent_models.ipynb) 
 
 We discuss the distinction between supervised and unsupervised learning, through the first context of clustering. 
 This allows to introduce the notion of latent variables and how we can solve for this using Expectation-Maximization (EM).
 We provide the full derivation through Variational inference and discuss the implementation of Gaussian Mixture Models (GMM)
 
+**Additional notebook on Gaussian Mixture Models (GMM)**
+
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](06b_gaussian_mixture_models.ipynb) 
+
 ---
 
 ### [07 - Approximate inference](07a_approximate_inference.ipynb)
 
-- [Notebook - Sampling](07b_sampling_mcmc.ipynb)
-
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](07b_sampling_mcmc.ipynb) 
 
 We introduce here the notion of approximate inference, through historical applications of sampling with Monte-Carlo and Metropolis-Hastings.
 We further show how variational inference can provide an elegant solution to our estimation problems and discuss its implications.
@@ -215,19 +207,19 @@ We further show how variational inference can provide an elegant solution to our
 
 ### [08 - Variational Auto-Encoder (VAE) and flows](08_variational_ae_flows.pdf)
 
-- [Notebook - Variational auto-encoders](08a_variational_auto_encoders.ipynb)
-- [Notebook - Normalizing flows](08b_normalizing_flows.ipynb)
-
-
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](08a_variational_auto_encoders.ipynb) 
 
 We show how fusing Auto-Encoders and variational inference leads to the Variational Auto-Encoder (VAE), a powerful generative models.
 We discuss issues of disentanglement and posterior collapse and introduce the recent Normalizing Flows and how these can be 
 used in generative contexts.
     
+**Additional notebook on Normalizing Flows**
+
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](08b_normalizing_flows.ipynb) 
 
 ---
 
