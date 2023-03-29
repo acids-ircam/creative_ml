@@ -99,6 +99,11 @@ and tutorials that will be covered and how to setup the overall environment.
 
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+
+- Machine learning :
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+- Feature-based learning :
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
     
@@ -148,6 +153,10 @@ We further discuss issues of regularization and initialization in networks.
 
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+// Deep learning :
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+// Auto-encoders :
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
@@ -226,12 +235,10 @@ used in generative contexts.
 
 ### [09 - Adversarial learning](09_adversarial_learning.pdf)
 
-- [Notebook - Generative Adversarial Networks](09a_generative_adversarial_network.ipynb)
-
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](09a_generative_adversarial_network.ipynb) 
 
 We introduce the notion of estimating by comparing and derive the complete adversarial objective naturally from this observation.
 After discussing adversarial attacks, we introduce Generative Adversarial Networks (GANs), which are still competitive generative
@@ -242,12 +249,10 @@ models to this day. We discuss flaws and limitations of GANs and introduce their
 
 ### [10 - Diffusion models](10_diffusion_models.pdf)
 
-- [Notebook - Diffusion models](10a_diffusion_models.ipynb)
-
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](10a_diffusion_models.ipynb) 
 
 This course explores the new class of generative models based on diffusion probabilistic models. 
 This class of models is inspired by thermodynamics, but also denoising score matching, Langevin dynamics and autoregressive decoding.
