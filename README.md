@@ -52,9 +52,13 @@ You also need to get the audio datasets from this [link ![](../images/file.png)]
 ## Lessons
 
 - [00 - Introduction](00_introduction.pdf)
-[![Full repository](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=GitHub)](https://github.com/acids-ircam/ddsp_pytorch) 
-[![Published in ArXiV](https://img.shields.io/badge/Paper-2001.04643-167DA4.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2001.04643) 
+
+[![Slides](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=Slides)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Powerpoint](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=microsoftpowerpoint)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Colab](https://img.shields.io/badge/Paper-2001.04643-167DA4.svg?style=flat-square&logo=googlecolab)](https://arxiv.org/abs/2001.04643) 
+[![Notebook](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=jupyter)](https://github.com/acids-ircam/ddsp_pytorch) 
 [![Video on YouTube](https://img.shields.io/badge/Video-PureData-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=_U6Bn-1FDHc&ab_channel=AntoineCaillon)
+
 General introduction
 Application examples
 Course specificities
