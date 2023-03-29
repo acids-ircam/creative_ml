@@ -224,7 +224,6 @@ These administrative details concerns only the current physical session attached
 
 ### Course details
 
-|----------|:-------------:|
 | **Type**   | 2-credits graduate school course  |
 | **Period** | April - July 2023 |
 | **Span**   | 13 classes of 105 minutes |
@@ -235,7 +234,6 @@ These administrative details concerns only the current physical session attached
 
 ### Full calendar
 
-|----------|:-------------:|
 | April 6 | 00 - Introduction |
 | April 13 | 01 - Machine learning |
 | April 20 | 02 - Neural networks |
