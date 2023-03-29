@@ -54,7 +54,7 @@ own coding environment.
 
 ---
 
-**Quick explanation.** For each of the following lessons, you will find a set of badges containing links to different parts of the course. 
+**Quick explanation.** For each of the following lessons, you will find a set of badges containing links to different parts of the course, which allows you to follow either the _online_ or _offline_ version
 
 ### [00 - Introduction](00_introduction.pdf)
 
