@@ -59,20 +59,27 @@ You also need to get the audio datasets from this [link ![](../images/file.png)]
 [![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](https://github.com/acids-ircam/ddsp_pytorch) 
 [![Colab](https://img.shields.io/badge/Notebook-collab-7DA416.svg?style=flat-square&logo=googlecolab)](https://arxiv.org/abs/2001.04643) 
 [![Notebook](https://img.shields.io/badge/Notebook-download-167DA4.svg?style=flat-square&logo=jupyter)](https://github.com/acids-ircam/ddsp_pytorch) 
-[![Video on YouTube](https://img.shields.io/badge/Video-None-7D1616.svg?style=flat-square&logo=Youtube)]()
-[![Published in ArXiV](https://img.shields.io/badge/Paper-None-7D1616.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2001.04643) 
+[![Video on YouTube](https://img.shields.io/badge/Video-none-7D1616.svg?style=flat-square&logo=Youtube)]()
+[![Published in ArXiV](https://img.shields.io/badge/Paper-none-7D1616.svg?style=flat-square&logo=arXiv)](https://arxiv.org/abs/2001.04643) 
 
-General introduction
-Application examples
-Course specificities
-Install and setup
-Pre-requisites
-Toolboxes and tutorials
-Introducing machine learning
+This course provides a brief history of the development of artificial intelligence and introduces the general concepts of machine learning 
+through a series of recent applications in the creative fields. This course also presents the pre-requisites, course specificities, toolboxes
+and tutorials that will be covered and how to setup the overall environment.
 
-- [01 - Machine learning](01_machine_learning.pdf)
+---
+
+### [01 - Machine learning](01_machine_learning.pdf)
     - [Notebook - Machine learning](01a_machine_learning.ipynb)
     - [Notebook - Feature-based learning](01b_feature_based_learning.ipynb)
+
+    [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+    [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+    [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+    [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+    [![Video on YouTube](https://img.shields.io/badge/Video-none-7D1616.svg?style=flat-square&logo=Youtube)]()
+    [![Published in ArXiV](https://img.shields.io/badge/Paper-none-7D1616.svg?style=flat-square&logo=arXiv)]() 
+    
+    
 Problem statement
 Classical problems
 Linear models for regression and classification
@@ -80,7 +87,9 @@ Optimization and Initialization
 Overfitting and cross-validation
 Properties and complexity
 
-- [02 - Neural networks](02_neural_networks.pdf)
+---
+
+## [02 - Neural networks](02_neural_networks.pdf)
     - [Notebook - Neural networks](02_neural_networks.ipynb)
 Brief history
 The artificial neuron
@@ -261,4 +270,6 @@ Please take a look at our [contributing](CONTRIBUTING.md) guidelines if you're i
 
 ## About
 
-Code and documentation copyright 2012-2023 by all members of ACIDS. Code released under the [CC-BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Code and documentation copyright 2012-2023 by all members of ACIDS. 
+
+Code released under the [CC-BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/).
