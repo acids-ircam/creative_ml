@@ -33,16 +33,22 @@ own coding environment.
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li> <a href="#lessons">Lessons</a> </li>
-    <li>
-      <a href="#projects"> ➤ Projects</a>
+    <li> <a href="#lessons">Lessons</a>
       <ul>
-        <li><a href="#preprocessed-data">Pre-processed data</a></li>
-        <li><a href="#statistical-feature">Statistical feature</a></li>
-        <li><a href="#topological-feature">Topological feature</a></li>
+        <li><a href="#lessons">Introduction</a></li>
+        <li><a href="#lessons">Machine learning</a></li>
+        <li><a href="#lessons">Neural networks</a></li>
+        <li><a href="#lessons">Advanced networks</a></li>
+        <li><a href="#lessons">Deep learning</a></li>
+        <li><a href="#lessons">Bayesian inference</a></li>
+        <li><a href="#lessons">Latent models</a></li>
+        <li><a href="#lessons">Approximate inference</a></li>
+        <li><a href="#lessons">Variational auto-encoders and flows</a></li>
+        <li><a href="#lessons">Generative adversarial networks</a></li>
+        <li><a href="#lessons">Diffusion models</a></li>
       </ul>
     </li>
-    <li> <a href="#adminiistrative">Datasets</a> </li>
+    <li> <a href="#administrative">Datasets</a> </li>
     <li> <a href="#details">Detailed lessons</a> </li>
     <li> <a href="#contribution">Contribution</a> </li>
     <li> <a href="#about">About</a> </li>
@@ -54,7 +60,20 @@ own coding environment.
 
 ---
 
-**Quick explanation.** For each of the following lessons, you will find a set of badges containing links to different parts of the course, which allows you to follow either the _online_ or _offline_ version
+**Quick explanation.** For each of the following lessons, you will find a set of badges containing links to different parts of the course, which allows you to follow either the _online_ or _offline_ version.
+Simply click on the corresponding badge to follow the lesson.
+
+|              Flavor | Type | Badge |
+| -----------------: | --------------: | ---------: |
+|            Online  |          Slides |            |
+| ^^                 |       Notebook  |   3--5 ATP |
+|            Offline |          Slides |      5 ATP |
+| ^^                 |       Notebook  |            |
+
+Note that if the badge is displayed in red color as follows 
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+it means that the content is not available yet and will be uploaded later.
+
 
 ### [00 - Introduction](00_introduction.pdf)
 
