@@ -99,8 +99,6 @@ and tutorials that will be covered and how to setup the overall environment.
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
-[![Video on YouTube](https://img.shields.io/badge/Video-none-7D1616.svg?style=flat-square&logo=Youtube)]()
-[![Published in ArXiV](https://img.shields.io/badge/Paper-none-7D1616.svg?style=flat-square&logo=arXiv)]() 
     
     
 Problem statement
@@ -113,7 +111,15 @@ Properties and complexity
 ---
 
 ## [02 - Neural networks](02_neural_networks.pdf)
-    - [Notebook - Neural networks](02_neural_networks.ipynb)
+
+- [Notebook - Neural networks](02_neural_networks.ipynb)
+
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+
+
 Brief history
 The artificial neuron
 Geometric perspective on neurons
@@ -121,8 +127,17 @@ Gradient descent
 Multi-layer perceptron
 Backpropagation
 
-- [03 - Advanced Neural Networks](03_advanced_networks.pdf)
-    - [Notebook - Advanced networks](03_advanced_networks.ipynb)
+---
+
+## [03 - Advanced neural networks](03_advanced_networks.pdf)
+
+- [Notebook - Advanced networks](03_advanced_networks.ipynb)
+
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+
 Convolution
 Convolutional NN
 Recurrent NN
