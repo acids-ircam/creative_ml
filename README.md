@@ -99,19 +99,17 @@ and tutorials that will be covered and how to setup the overall environment.
 
 [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
-
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
-1 - Machine learning
-
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
-2 - Feature-based learning    
     
 This course introduces the formal notions required to understand machine learning along with classic problems of linear models 
 for regression and classification. We discuss the mathematical derivation for optimization and various problems of overfitting, cross-validation
 and model properties and complexity that are still quintessential in modern machine learning.
 
+**Additional notebook on feature-based learning**
+
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
 
 ---
 
