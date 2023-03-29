@@ -58,8 +58,6 @@ own coding environment.
 
 ## Lessons
 
----
-
 **Quick explanation.** For each of the following lessons, you will find a set of badges containing links to different parts of the course, which allows you to follow either the _online_ 
 or _offline_ versions.
 
@@ -75,6 +73,7 @@ Simply click on the corresponding badge to follow the lesson. Note that if the b
 it means that the content is not available yet and will be uploaded later. 
 Also note that some courses might contain multiple notebooks and extra information, which will be clearly indicated in that case.
 
+---
 
 ### [00 - Introduction](00_introduction.pdf)
 
