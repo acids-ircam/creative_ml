@@ -1,30 +1,54 @@
-# Creative Machine Learning
+<div align="center">
+<h1>
+  <br>
+  <a href="http://acids.ircam.fr"><img src="images/logo_acids.png" alt="ACIDS" width="200"></a>
+  <br>
+  Creative Machine Learning
+  <br>
+</h1>
 
-Creative Machine Learning course and notebook tutorials in JAX, PyTorch and Numpy
+<h3>**Creative Machine Learning** course and notebook tutorials in JAX, PyTorch and Numpy, by <a href="http://acids.ircam.fr" target="_blank">ACIDS</a>.</h3>
 
-This repository contains the most up to date courses in machine learning applied to music computing given along the ATIAM Masters at IRCAM. The courses slides along with a set of interactive Jupyter Notebooks will be updated along the year to provide all the ML program.
+<h4>
+  <a href="#lessons">Lessons</a> •
+  <a href="#setup">Setup</a> •
+  <a href="#administrative">Administrative</a> •
+  <a href="#details">Detailed lessons</a> •
+  <a href="#contribution">Contribution</a> •
+  <a href="#about">About</a>
+</h4>
+</div>
+
+This repository contains the courses in machine learning applied to music and other creative mediums.
+This course is currently given at the University of Tokyo (Japan), and along the ATIAM Masters at IRCAM, Paris (France). 
+The courses slides along with a set of interactive Jupyter Notebooks will be updated along the year to provide all the ML program.
 
 **As the development of this course is ongoing, please pull this repo regularly to stay updated. Also, please do not hesitate to post issues if you spot any mistake :)**
 
-Please first follow the installation procedure (see next section) to ensure that you have all necessary libraries to follow the course smoothly. You also need to get the audio datasets from this [link ![](../images/file.png)](https://nubo.ircam.fr/index.php/s/oRHRMCYNDXc5cWJ)   
+Please first follow the installation procedure (see section) to ensure that you have all necessary libraries to follow the course smoothly. 
+You also need to get the audio datasets from this [link ![](../images/file.png)](https://nubo.ircam.fr/index.php/s/oRHRMCYNDXc5cWJ)   
 
-## Administrative details (current session)
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li> <a href="#lessons">Lessons</a> </li>
+    <li>
+      <a href="#projects"> ➤ Projects</a>
+      <ul>
+        <li><a href="#preprocessed-data">Pre-processed data</a></li>
+        <li><a href="#statistical-feature">Statistical feature</a></li>
+        <li><a href="#topological-feature">Topological feature</a></li>
+      </ul>
+    </li>
+    <li> <a href="#adminiistrative">Datasets</a> </li>
+    <li> <a href="#details">Detailed lessons</a> </li>
+    <li> <a href="#contribution">Contribution</a> </li>
+    <li> <a href="#about">About</a> </li>
+  </ol>
+</details>
 
-**Type**   : 2-credits graduate school course  \\
-**Period** : April - July 2023 \\
-**Span**   : 13 classes of 105 minutes \\
-**Date**   : Thursday at 2:55 - 4:10 \\
-**Onsite** : Room 214, 2nd Floor, Sci. 7 Building \\
-**Online** : https://u-tokyo-ac-jp.zoom.us/j/81363691008?pwd=cmxiRURMdm9udXBKbTNjQkZvblNFQT09
 
-**Full calendar** \\
-_April_  6, 13, 20, 27 \\
-_May_    11, 18, 25 (4th is public holiday) \\
-_June_   8, 15, 22, 29 (1st is midterm exam date) \\
-_July_   6, 13
-
-
-## Structure of the course
+## Lessons
 
 - [00 - Introduction](00_introduction.pdf)
 General introduction
@@ -129,9 +153,13 @@ Langevin dynamics
 
 - [11 - Guest lecture]
 
-## Installation and dependencies
+## Setup
 
-Along the tutorials, we provide a reference code for each section. This code contains helper functions that will alleviate you from the burden of data import and other sideline implementations. You will find designated spaces in each file to develop your solutions. The code is in Python (notebooks impending) and relies heavily on the concept of [code sections](https://fr.mathworks.com/help/matlab/matlab_prog/run-sections-of-programs.html) which allows you to evaluate only part of the code (to avoid running long import tasks multiple times and concentrate on the question at hand.
+Along the tutorials, we provide a reference code for each section. 
+This code contains helper functions that will alleviate you from the burden of data import and other sideline implementations. 
+You will find designated spaces in each file to develop your solutions. 
+The code is in Python (notebooks impending) and relies on the concept of [code sections](https://fr.mathworks.com/help/matlab/matlab_prog/run-sections-of-programs.html),
+ which allows you to evaluate only part of the code (to avoid running long import tasks multiple times and concentrate on the question at hand.
 
 ### Dependencies
 
@@ -177,3 +205,21 @@ Then, once installed, you can go to the folder where you cloned this repository,
 ```
 jupyter lab
 ```
+
+
+## Administrative 
+
+These administrative details concerns only the current physical session attached to the corresponding university.
+
+**Type**   : 2-credits graduate school course  \\
+**Period** : April - July 2023 \\
+**Span**   : 13 classes of 105 minutes \\
+**Date**   : Thursday at 2:55 - 4:40 pm (JST Time) \\
+**Onsite** : Room 214, 2nd Floor, Sci. 7 Building \\
+**Online** : https://u-tokyo-ac-jp.zoom.us/j/81363691008?pwd=cmxiRURMdm9udXBKbTNjQkZvblNFQT09
+
+**Full calendar** \\
+_April_  6, 13, 20, 27 \\
+_May_    11, 18, 25 (4th is public holiday) \\
+_June_   8, 15, 22, 29 (1st is midterm exam date) \\
+_July_   6, 13
