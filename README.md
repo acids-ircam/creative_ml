@@ -53,11 +53,11 @@ You also need to get the audio datasets from this [link ![](../images/file.png)]
 
 - [00 - Introduction](00_introduction.pdf)
 
-[![Slides](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=Slides)](https://github.com/acids-ircam/ddsp_pytorch) 
-[![Powerpoint](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=microsoftpowerpoint)](https://github.com/acids-ircam/ddsp_pytorch) 
-[![Colab](https://img.shields.io/badge/Paper-2001.04643-167DA4.svg?style=flat-square&logo=googlecolab)](https://arxiv.org/abs/2001.04643) 
-[![Notebook](https://img.shields.io/badge/Github-ddsp_pytorch-7DA416.svg?style=flat-square&logo=jupyter)](https://github.com/acids-ircam/ddsp_pytorch) 
-[![Video on YouTube](https://img.shields.io/badge/Video-PureData-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=_U6Bn-1FDHc&ab_channel=AntoineCaillon)
+[![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googlecloud)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Powerpoint](https://img.shields.io/badge/Slides_PDF-download-7DA416.svg?style=flat-square&logo=microsoftpowerpoint)](https://github.com/acids-ircam/ddsp_pytorch) 
+[![Colab](https://img.shields.io/badge/Notebook-collab.svg?style=flat-square&logo=googlecolab)](https://arxiv.org/abs/2001.04643) 
+[![Notebook](https://img.shields.io/badge/Notebook-download-7DA416.svg?style=flat-square&logo=jupyter)](https://github.com/acids-ircam/ddsp_pytorch) 
+[//]: #[![Video on YouTube](https://img.shields.io/badge/Video-PureData-7DA416.svg?style=flat-square&logo=Youtube)](https://www.youtube.com/watch?v=_U6Bn-1FDHc&ab_channel=AntoineCaillon)
 
 General introduction
 Application examples
