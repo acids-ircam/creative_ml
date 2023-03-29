@@ -69,15 +69,16 @@ and tutorials that will be covered and how to setup the overall environment.
 ---
 
 ### [01 - Machine learning](01_machine_learning.pdf)
-    - [Notebook - Machine learning](01a_machine_learning.ipynb)
-    - [Notebook - Feature-based learning](01b_feature_based_learning.ipynb)
 
-    [![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
-    [![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
-    [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-    [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
-    [![Video on YouTube](https://img.shields.io/badge/Video-none-7D1616.svg?style=flat-square&logo=Youtube)]()
-    [![Published in ArXiV](https://img.shields.io/badge/Paper-none-7D1616.svg?style=flat-square&logo=arXiv)]() 
+- [Notebook - Machine learning](01a_machine_learning.ipynb)
+- [Notebook - Feature-based learning](01b_feature_based_learning.ipynb)
+
+[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)]() 
+[![Video on YouTube](https://img.shields.io/badge/Video-none-7D1616.svg?style=flat-square&logo=Youtube)]()
+[![Published in ArXiV](https://img.shields.io/badge/Paper-none-7D1616.svg?style=flat-square&logo=arXiv)]() 
     
     
 Problem statement
