@@ -55,6 +55,11 @@ own coding environment.
   </ol>
 </details>
 
+### Discord channel
+
+Join the [Discord channel](https://discord.gg/gpF82wnh) of this course to join
+the community and share experiences and problems around the course
+
 
 ## Lessons
 
@@ -263,31 +268,37 @@ This code contains helper functions that will alleviate you from the burden of d
 You will find designated spaces in each file to develop your solutions. 
 The code is in Python (notebooks impending) and relies on the concept of [code sections](https://fr.mathworks.com/help/matlab/matlab_prog/run-sections-of-programs.html),
  which allows you to evaluate only part of the code (to avoid running long import tasks multiple times and concentrate on the question at hand.
+ 
+**Please refer to the setup notebook to check if your configuration is correct**
 
 ### Dependencies
 
 #### Python installation
 
-In order to get the baseline script to work, you need to have a working distribution of `Python 3.5` as a minimum (we also recommend to update your version to `Python 3.7`). We will also be using the following libraries
+In order to get the baseline scripts and notebooks to work, you need to have a working distribution of `Python 3.7` as a minimum (we also recommend to update your version to `Python 3.9`). We will also be using a large set of libraries, with the following ones being the most prohiminent
 
-- [Matplotlib](https://matplotlib.org/)
 - [Numpy](https://numpy.org/)
-- [SciPy](https://www.scipy.org/)
 - [Scikit-Learn](https://scikit-learn.org/)
-- [Music21](http://web.mit.edu/music21/)
-- [Librosa](http://librosa.github.io/librosa/index.html)
 - [PyTorch](https://pytorch.org/)
+- [Jax](https://pytorch.org/)
+- [Librosa](http://librosa.github.io/librosa/index.html)
+- [Matplotlib](https://matplotlib.org/)
 
 We highly recommend that you install [Pip](https://pypi.python.org/pypi/pip/) or [Anaconda](https://www.anaconda.com/download/) that will manage the automatic installation of those Python libraries (along with their dependencies). If you are using `Pip`, you can use the following commands
 
 ```
-pip install matplotlib
+pip install -r requirements.txt
+```
+
+If you prefer to install all the libraries by hand to check their version, you can use individual commands
+
+```
 pip install numpy
-pip install scipy
 pip install scikit-learn
-pip install music21
+pip install torch
+pip install jax
 pip install librosa
-pip install torch torchvision
+pip install matplotlib
 ```
 
 For those of you who have never coded in Python, here are a few interesting resources to get started.
