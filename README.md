@@ -30,6 +30,12 @@ own coding environment.
 **As the development of this course is always ongoing, please pull this repo regularly to stay updated.**
 **Also, please do not hesitate to post issues or PRs if you spot any mistake** (see the [contribution section](#contribution)).
 
+#### Discord channel
+
+Join the [Discord channel](https://discord.gg/gpF82wnh) of this course to join
+the community and share experiences and problems.
+
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -54,11 +60,6 @@ own coding environment.
     <li> <a href="#about">About</a> </li>
   </ol>
 </details>
-
-#### Discord channel
-
-Join the [Discord channel](https://discord.gg/gpF82wnh) of this course to join
-the community and share experiences and problems.
 
 
 ## Lessons
