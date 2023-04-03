@@ -55,10 +55,10 @@ own coding environment.
   </ol>
 </details>
 
-### Discord channel
+#### Discord channel
 
 Join the [Discord channel](https://discord.gg/gpF82wnh) of this course to join
-the community and share experiences and problems around the course
+the community and share experiences and problems.
 
 
 ## Lessons
