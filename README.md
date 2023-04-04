@@ -12,8 +12,6 @@
 
 <center>
 <i>Course given both at the University of Tokyo (Japan) and Sorbonne Université (Paris, France)</i>
-
-<img src="images/logo_todai.png" alt="ACIDS" height="50">  &nbsp; <img src="images/logo_sorbonne.png" alt="ACIDS" height="50">
 </center>
 
 <h4>
