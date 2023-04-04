@@ -9,6 +9,9 @@
 
 <h3>Creative Machine Learning course and notebooks in JAX, PyTorch and Numpy.</h3>
 
+<img src="images/logo_todai.png" alt="ACIDS" height="50"><img src="images/logo_sorbonne.png" alt="ACIDS" height="50">
+<it>Course given both at the University of Tokyo (Japan) and Sorbonne Université (Paris, France)</it>
+
 <h4>
   <a href="#lessons">Lessons</a> •
   <a href="#setup">Setup</a> •
