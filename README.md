@@ -11,8 +11,8 @@
 
 
 <center>
-<i>Course given both at the University of Tokyo (Japan) and Sorbonne Université (Paris, France)</i><br/>
-<b>Professor</b>: [Philippe Esling](http://esling.github.io)
+<i>Course given both at the <a href="https://www.u-tokyo.ac.jp/en/index.html" target="_blank">University of Tokyo</a> (Japan) and <a href="https://www.sorbonne-universite.fr/" target="_blank">Sorbonne Université</a> (Paris, France)</i><br/>
+<b>Professor</b>: <a href="http://esling.github.io" target="_blank">Philippe Esling</a>
 </center>
 
 <h4>
@@ -26,7 +26,7 @@
 </div>
 
 This repository contains the courses in machine learning applied to music and other creative mediums.
-This course is currently given at the University of Tokyo (Japan), and along the [ATIAM Masters](http://atiam.ircam.fr) at IRCAM, Paris (France). 
+This course is currently given at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html) (Japan), and along the [ATIAM Masters](http://atiam.ircam.fr) at IRCAM, Sorbonne Paris (France). 
 The courses slides along with a set of interactive Jupyter Notebooks will be updated along the year to provide all the ML program.
 This course is proudly provided by the <a href="http://github.com/acids-ircam" target="_blank">ACIDS</a> team.
 This course can be followed entirely online through the set of [Google slides](http://slides.google.com) and [Colab](http://colab.google.com) notebooks links provided openly along each lesson.
