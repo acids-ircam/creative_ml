@@ -11,7 +11,7 @@
 
 
 <center>
-<i>Course given both at the University of Tokyo (Japan) and Sorbonne Université (Paris, France)</i>
+<i>Course given both at the University of Tokyo (Japan) and Sorbonne Université (Paris, France)</i><br/>
 <b>Professor</b>: [Philippe Esling](http://esling.github.io)
 </center>
 
