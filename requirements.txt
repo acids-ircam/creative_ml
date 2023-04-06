@@ -7,7 +7,7 @@ distrax
 einops
 flax
 flaxmodels
-gin
+gin-config
 holoviews
 jax
 jaxlib
