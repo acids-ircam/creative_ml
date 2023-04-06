@@ -1,6 +1,7 @@
 audioread
 bokeh
 chex
+git+https://github.com/deepmind/dm_aux.git
 dm_pix
 distrax
 einops
