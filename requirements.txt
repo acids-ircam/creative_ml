@@ -24,7 +24,7 @@ pyrubberband
 resampy
 rise
 seaborn
-sklearn
+scikit-learn
 scipy
 tensorboard
 tensorflow_datasets
