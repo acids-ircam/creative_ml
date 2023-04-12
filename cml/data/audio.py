@@ -1,109 +1,194 @@
 # -*- coding: utf-8 -*-
 
-import pyo
+#import pyo
 import librosa
 import numpy as np
-from os import path
+import os as os
 import librosa
-import matplotlib.pyplot as plt
-import numpy as np
 from os import path
 from pathlib import Path
 from tqdm import tqdm
-import torch
-import torch.utils.data as data
-import torchvision.transforms as transforms
-from torch.utils.data.sampler import SubsetRandomSampler
 from torch.utils.data import Dataset
-# Lightning specific import
-import pytorch_lightning as pl
-# Import transforms
-from transforms import PitchShift, Reverb, Noise, Dequantize, Reverse
+import tensorflow as tf
+import tensorflow_datasets as tfds
+from typing import Callable, List
+
+#%%
+"""
+###################
+Dataset import helper function
+###################
+"""
+def import_dataset(
+        data_path,
+        dataset_name,
+        split = "train",
+        batch_size = 16
+        ):
+    if (dataset_name in ["gtzan"]):
+        return AudioSupervisedDataset(
+            dataset_name,
+            data_destination = data_path,
+            split = split,
+            batch_size = batch_size,
+            shuffle = split == "train"
+        )
+    elif (dataset_name == "musclefish"):
+        return AudioSupervisedDataset(
+            dataset_name = dataset_name,
+            data_path = data_path,
+            split = split,
+            batch_size = batch_size,
+            shuffle = split == "train"
+        )
+        
     
 #%%
 """
 ###################
-Dataloader for waveforms
+Dataset class for waveforms
 ###################
 """  
-def dummy_load(name, args):
-    """
-    Preprocess function that takes one audio path and load it into
-    chunks of 2048 samples.
-    """
-    x = librosa.load(name, args.sr)[0]
-    if (x.shape[0] > (args.shape)):
-        m_point = x.shape[0] - (args.shape)
-        r_point = int(np.random.random() * m_point)
-        x = x[r_point:r_point+int(args.shape)]
-    else:
-        x = np.concatenate([x, np.zeros(int(args.shape - int(x.shape[0])))])
-    return x
+
+def simple_audio_preprocess(name, sr=44100, N=44100):
+    x, sr = librosa.load(name, sr=sr)
+    pad = (N - (len(x) % N)) % N
+    x = np.pad(x, (0, int(pad)))
+    x = x.reshape(-1, N)
+    return x[0]
+
+class AudioSupervisedDataset:
     
-class WaveformDataset(Dataset):
     def __init__(self, 
-                 data_dir = None, 
-                 preprocess_function = dummy_load, 
-                 transforms = None, 
-                 extension = "*.wav,*.aif", 
-                 split_percent = .2, 
-                 split_set = "train",
-                 args = None):
-        super().__init__()
-        # Check we have data dir
-        assert data_dir is not None
-        self.folder_list = data_dir
-        self.preprocess_function = preprocess_function
-        self.extension = extension
+                 dataset_name = None,
+                 data_path = None,
+                 data_destination = None,
+                 split = 'train',
+                 batch_size = 16,
+                 shuffle = True,
+                 preprocess_function: Callable = None,
+                 transforms: List[object] = None,
+                 extension: str = "*.wav,*.aif",
+                 split_percent: float = .2
+                 ):
+        self.dataset_name = dataset_name
+        self.data_path = data_path
+        self.dataset = None
+        self.split = split
+        self.batch_size = batch_size
+        self.shuffle = shuffle
         self.transforms = transforms
-        self.args = args
-        # Import the data
-        self._preprocess()
-        if self.len == 0:
-            raise Exception("No data found !")
-        # Create list of indexes
-        self.index = np.arange(self.len)
-        np.random.shuffle(self.index)
-        if split_set == "train":
-            self.len = int(np.floor((1 - split_percent) * self.len))
-            self.offset = 0
-        elif split_set == "test":
-            self.offset = int(np.floor((1 - split_percent) * self.len))
-            self.len = self.len - self.offset
-        elif split_set == "full":
-            self.offset = 0
-
-    def _preprocess(self):
-        extension = self.extension.split(",")
-        idx = 0
-        wavs = []
-        # Populate the file list
-        if self.folder_list is not None:
-            for f, folder in enumerate(self.folder_list.split(",")):
-                print("Recursive search in {}".format(folder))
-                for ext in extension:
-                    wavs.extend(list(Path(folder).rglob(ext)))
+        self.extension = extension
+        self.ext_list = [s[1:] for s in extension.split(',')]
+        self.load_dataset()
+        self._reset_generator()
+        
+    def load_dataset(self):
+        if self.data_path is None:
+            # Use TFDS loading system
+            self.dataset = tfds.load(
+                name=self.dataset_name, 
+                split=self.split, 
+                shuffle_files=self.shuffle, 
+                batch_size=self.batch_size)
+            self.num_examples = self.info.splits[self.split].num_examples
+            self.num_classes = self.info.features['label'].num_classes
         else:
-            with open(self.file_list, "r") as file_list:
-                wavs = file_list.read().split("\n")
-        self.env = [None] * len(wavs);
-        loader = tqdm(wavs)
-        for wav in loader:
-            loader.set_description("{}".format(path.basename(wav)))
-            output = self.preprocess_function(wav, self.args)
-            if output is not None:
-                self.env[idx] = output
-                idx += 1
-        self.len = len(self.env)
-
+            # Use local dataset
+            self.full_path = self.data_path + '/' + self.dataset_name
+            self.load_local()
+            
+    def load_local(self):
+        audio_files = []
+        # Populate the file list
+        for f, folder in enumerate(self.full_path.split(",")):
+            print("Recursive search in {}".format(folder))
+            for ext in self.extension:
+                audio_files.extend(list(Path(folder).rglob(ext)))
+        # Extract labels
+        audio_files = [str(f) for f in audio_files if os.path.isfile(f)]
+        audio_files = [f for f in audio_files if os.path.splitext(f)[1] in self.ext_list]
+        labels = [f.split('/')[-2] for f in audio_files]
+        labels_names = list(set(labels))
+        labels = [labels_names.index(l) for l in labels]
+        audio = [simple_audio_preprocess(f) for f in audio_files]
+        # Create TF dataset
+        self.dataset = tf.data.Dataset.from_tensor_slices({'audio':audio, 'label':labels})
+        # Shuffle dataset
+        if self.shuffle:
+            self.dataset = self.dataset.shuffle(len(audio_files))
+        # Generate batches
+        self.audio_files = audio_files
+        self.labels = labels
+        self.labels_names = labels_names
+        self.num_examples = len(audio_files)
+        self.num_classes = len(self.labels_names)
+        self.audio = audio
+        self.sr = 44100
+    
     def __len__(self):
-        return self.len
-
+        return self.num_examples // self.batch_size
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        batch = next(self.generator)
+        if self.transforms:
+            batch = self.transforms(batch)
+        return batch
+    
+    def _reset_generator(self):
+        self.generator = self._generate()
+    
+    def _generate(self):
+        ds = self.dataset
+        if self.shuffle:
+            ds = ds.shuffle(self.num_examples, seed=0)
+        ds = ds.batch(self.batch_size)
+        ds = ds.prefetch(1)
+        for batch in ds:
+            audio, labels = batch['audio'], batch['label']
+            yield audio, labels
+    
+    def apply_to_dataset(self, function):
+        ds = self.dataset
+        if self.split == 'train':
+            ds = ds.take(self.num_examples // self.batch_size * self.batch_size)
+        ds = ds.batch(self.batch_size)
+        ds = ds.map(function, num_parallel_calls=tf.data.experimental.AUTOTUNE)
+        ds = ds.prefetch(1)
+        results = []
+        for batch in ds:
+            audio, labels = batch['audio'], batch['label']
+            results.append((audio, labels))
+        return results
+    
+    def transform(self, index, name="cqt"):
+        return compute_transform(self.audio[index], name, self.sr)
+    
+    def feature(self, index, name="centroid"):
+        return compute_feature(self.audio[index], name)
+            
+    def apply_transform(self, transform_func):
+        if self.dataset is None:
+            raise ValueError("Dataset not loaded yet!")
+        self.dataset = self.dataset.map(lambda x, y: (transform_func(x), y))
+        
+    def apply_to_all(self, transform_func):
+        if self.dataset is None:
+            raise ValueError("Dataset not loaded yet!")
+        self.dataset = self.dataset.map(lambda x, y: (transform_func(x), y), num_parallel_calls=tf.data.AUTOTUNE)
+        
     def __getitem__(self, index):
-        data = self.env[self.index[index + self.offset]]
-        if self.transforms is not None:
-            data = self.transforms(data)
-        return data
+        if self.dataset is None:
+            raise ValueError("Dataset not loaded yet!")
+        return self.dataset.__getitem__(index)
+    
+    def __len__(self):
+        if self.dataset is None:
+            raise ValueError("Dataset not loaded yet!")
+        return len(self.dataset)
 
 """
 ###################
@@ -125,7 +210,78 @@ class WrapperDataset(Dataset):
         if self.transforms is not None:
             data = self.transforms(data)
         return data
+ 
+#%%
+"""
+###################
+Feature computation functions
+###################
+"""
+#
+# Main transforms computation function
+#
+def compute_transform(cur_signal, name, sr=44100, verbose = False):
+    # Overall settings
+    fSize = 1024
+    wSize = fSize
+    hSize = fSize//4
+    refSr = 44100
+    # Constant-Q settings
+    fMin = librosa.note_to_hz('C2')
+    nBins = 60 * 2
+    import warnings
+    warnings.filterwarnings('ignore')
+    # Perform an analysis of spectral transform for each
+    if (name == "stft"):
+        # Compute the FFT 
+        psc = librosa.stft(cur_signal, n_fft=fSize, win_length=wSize, hop_length=hSize, window='blackman')
+        powerspec, phasespec = librosa.magphase(psc);
+        return powerspec[:(fSize//2), :]
+    elif (name == "mel"):
+        # Compute the mel spectrogram        
+        wMel = librosa.feature.melspectrogram(cur_signal, sr=sr, n_fft=fSize, hop_length=hSize)
+        return wMel
+    elif (name == "chroma"):
+        # Compute the chromagram
+        psc = librosa.stft(cur_signal, n_fft=fSize, win_length=wSize, hop_length=hSize, window='blackman')
+        powerspec, phasespec = librosa.magphase(psc);
+        wChroma = librosa.feature.chroma_stft(S=powerspec**2, sr=sr)
+        return (wChroma)
+    elif (name == "cqt"):
+        # Compute the Constant-Q transform
+        Xcq = librosa.cqt(cur_signal, sr=sr, n_bins=nBins, fmin=fMin, bins_per_octave=12 * 2)
+        return (np.abs(Xcq));
+    else:
+        raise NotImplementedError("Audio descriptor " + name + " not implemented")
 
+#
+# Main features computation function
+#
+def compute_feature(cur_signal, name, verbose = False):
+    # Window sizes
+    wSize = 1024
+    if (name == "loudness"):
+        return librosa.feature.rms(y = cur_signal)
+    # Compute the spectral centroid. [y, sr, S, n_fft, ...]
+    elif name == "centroid":
+        return librosa.feature.spectral_centroid(y = cur_signal)
+        # Compute the spectral bandwidth. [y, sr, S, n_fft, ...]
+    elif name == "bandwidth":
+        return (librosa.feature.spectral_bandwidth(y = cur_signal))
+        # Compute spectral contrast [R16] , sr, S, n_fft, ...])	
+    elif name == "contrast":
+        return (librosa.feature.spectral_contrast(y = cur_signal))
+        # Compute the spectral flatness. [y, sr, S, n_fft, ...]
+    elif name == "flatness":
+        return (librosa.feature.spectral_flatness(y = cur_signal))
+        # Compute roll-off frequency
+    elif name == "rolloff":
+        return (librosa.feature.spectral_rolloff(y = cur_signal))
+    else:
+        raise NotImplementedError("Audio descriptor " + name + " not implemented")
+
+
+#%%
 """
 ###################
 
@@ -261,3 +417,5 @@ def generate_additive_set(n_samples=1e5, duration = 0.075, slice_id = None, midi
     data = np.concatenate(dataset)
     np.save(target_file, data)
     return data
+
+

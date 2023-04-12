@@ -7,6 +7,10 @@
 """
 from bokeh.io import output_notebook
 from bokeh.plotting import curdoc
+import panel as pn
+
+def center_plot(p):
+    return pn.Row(pn.layout.HSpacer(), p, pn.layout.HSpacer())
 
 def initialize_bokeh():
     curdoc().theme = "dark_minimal"
@@ -28,6 +32,7 @@ from cml.plot.density import (
 )
 
 __all__ = [
+    "center_plot"
     "initialize_bokeh",
     "cml_figure",
     "cml_figure_legend",

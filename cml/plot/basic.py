@@ -20,7 +20,8 @@ def scatter(
         title: str = r"Observations",
         toolbar_location:str = None,
         x_label:str = "x",
-        y_label:str = "y"):
+        y_label:str = "y",
+        legend_labels="Observations"):
     # Create a figure in our style
     p = cml_figure(
         plot_width=600, 
@@ -38,7 +39,7 @@ def scatter(
         hover_fill_color = "red", 
         hover_alpha=0.5,
         hover_line_color="white",
-        legend_label="Observations")
+        legend_label=legend_labels)
     # Annotate labels
     p.xaxis.axis_label = x_label
     p.yaxis.axis_label = y_label

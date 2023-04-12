@@ -21,6 +21,7 @@ panel
 plotly
 pretty_midi
 pyrubberband
+pyo
 resampy
 rise
 seaborn

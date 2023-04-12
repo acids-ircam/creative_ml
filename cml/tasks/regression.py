@@ -17,7 +17,7 @@ from typing import Callable
 from cml.randomness import Random
 from cml.tasks.task import MLTask
 from cml.plot import scatter
-from cml.data import polynomial, swiss_roll
+from cml.data import polynomial, linear, swiss_roll
 from cml.utils import remove_comments
 
 
@@ -62,7 +62,7 @@ class RegressionTask(MLTask):
                 y_label = r"$$\color{white} " + self._equation + "$$")
         # Add true function
         if (self.ground_truth):
-            p.line(np.array(self.x), np.array(self.y), line_width=8, line_alpha=0.6, legend_label=r"True function")
+            p.line(np.array(self.x), np.array(self.y), line_width=4, line_alpha=0.6, legend_label=r"True function")
         # Add error bars
         if (self.error):
             x = np.array(self.x)
@@ -75,15 +75,41 @@ class RegressionTask(MLTask):
     def render(self):
         py_code = remove_comments(inspect.getsource(self.data_generator))[:-1]
         n_lines = py_code.count('\n')
-        return pn.Column(
-            pn.Row(
-                pn.Param(self.param, 
-                         name="Problem parameters",
-                         widgets = self.widgets),
-                self.plot),
-            pn.widgets.Ace(value=py_code, sizing_mode='stretch_both', language='python', theme="chaos", height=30 * n_lines),
-        )
+        return pn.Row(
+            pn.layout.HSpacer(),
+            pn.Column(
+                pn.Row(
+                    pn.Param(self.param, 
+                             name="Problem parameters",
+                             widgets = self.widgets),
+                    self.plot),
+                pn.widgets.Ace(value=py_code, sizing_mode='stretch_both', language='python', theme="chaos", height=30 * n_lines),  
+            ),
+            pn.layout.HSpacer(),
+            )
 
+class RegressionLinear(RegressionTask):
+    """Regression task on a linear problem
+
+    Attributes:
+        x_1 (float): 1st order coefficient
+        x_0 (float): 0th order coefficient
+    """
+    x_1 = param.Number(default = 1.0, bounds=(-5.0, 5.0))
+    x_0 = param.Number(default = 0.0, bounds=(-5.0, 5.0))
+    _title: str = r"Linear regression problem"
+    data_generator = linear
+
+    def generate_data(self):
+        # Generating polynomial regression problem
+        self.x, self.y = linear(jnp.array([self.x_1, self.x_0]), self.number_observations)
+        super().generate_data()
+    
+    def plot(self):
+        # Set current label dynamically
+        self._equation = f"{self.x_1:.1f}x^{1} + {self.x_0:.1f}"
+        # Generate figure from super
+        return super().plot()
 
 class RegressionPolynomial(RegressionTask):
     """Regression task on a degree 2 polynomial.
@@ -125,7 +151,14 @@ class RegressionSwissRoll(RegressionTask):
         self._equation = f"\epsilon = {self.noise_level}"
         # Generate figure from super
         return super().plot()
+
+class RegressionLinearSolver(RegressionLinear):
     
+    def plot(self):
+        p = super().plot()
+        x_predict, y_model = self.solve(self.x, self.y_obs)
+        p.line(np.array(x_predict), y_model, line_width=4, line_alpha=0.7, color="red", legend_label=r"Learned model")
+        return p
 
 class RegressionPolynomialSolver(RegressionPolynomial):
     degree = param.Integer(default=1, bounds=(1, 30))
@@ -133,7 +166,7 @@ class RegressionPolynomialSolver(RegressionPolynomial):
     def plot(self):
         p = super().plot()
         x_predict, y_model = self.solve(self.x, self.y_obs, self.degree)
-        p.line(np.array(x_predict), y_model, line_width=8, line_alpha=0.7, color="red")
+        p.line(np.array(x_predict), y_model, line_width=4, line_alpha=0.7, color="red")
         return p
     
     

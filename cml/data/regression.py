@@ -51,6 +51,33 @@ def polynomial(
     y = jnp.polyval(coefficients, x)
     return x, y
 
+
+def linear(
+        coefficients: jnp.ndarray,
+        n_observations: int = 100) -> [jnp.ndarray, jnp.ndarray]:
+    """
+    Generate a 1-dimensional linear set given some input coefficients
+
+    Parameters
+    ----------
+    coefficients : jnp.ndarray
+        First coefficient and bias
+    n_observations : int, optional
+        Number of observations to generate. The default is 100.
+
+    Returns
+    -------
+    x : jnp.ndarray
+        Set of X coordinates.
+    y : jnp.ndarray
+        Set of Y coordinates.
+
+    """
+    x = jnp.linspace(0, 1, n_observations)
+    y = coefficients[0] * x + coefficients[1]
+    return x, y
+
+
 def swiss_roll(
         n_observations: int = 100) -> [jnp.ndarray, jnp.ndarray]:
     """

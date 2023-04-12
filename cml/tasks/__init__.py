@@ -17,6 +17,8 @@ from cml.tasks.task import (
 )
 from cml.tasks.regression import (
     RegressionTask,
+    RegressionLinear,
+    RegressionLinearSolver,
     RegressionPolynomial,
     RegressionPolynomialSolver,
     RegressionSwissRoll
@@ -37,6 +39,8 @@ from cml.tasks.density import (
 __all__ = [
     "MLTask",
     "RegressionTask",
+    "RegressionLinear",
+    "RegressionLinearSolver",
     "RegressionPolynomial",
     "RegressionPolynomialSolver",
     "RegressionSwissRoll",

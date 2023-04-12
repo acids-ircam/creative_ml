@@ -10,8 +10,13 @@
                         <esling@ircam.fr>
 """
 
+from cml.data.audio import (
+    AudioSupervisedDataset,
+    import_dataset,
+)
 from cml.data.regression import (
     polynomial,
+    linear,
     swiss_roll
 )
 from cml.data.classification import (
@@ -33,7 +38,10 @@ from cml.data.density import (
 )
 
 __all__ = [
+    "AudioSupervisedDataset",
+    "import_dataset"
     "polynomial",
+    "linear",
     "swiss_roll",
     "linear_separation",
     "xor_separation",
