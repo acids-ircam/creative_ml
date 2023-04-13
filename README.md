@@ -38,7 +38,7 @@ own coding environment.
 
 #### Discord channel
 
-Join the [Discord channel](https://discord.gg/gpF82wnh) of this course to join
+Join the [Discord channel](https://discord.gg/meWN48rynW) of this course to join
 the community and share experiences and problems.
 
 
