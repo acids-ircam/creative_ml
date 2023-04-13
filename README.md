@@ -28,7 +28,7 @@
 This repository contains the courses in machine learning applied to music and other creative mediums.
 This course is currently given at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html) (Japan), and along the [ATIAM Masters](http://atiam.ircam.fr) at IRCAM, Sorbonne Paris (France). 
 The courses slides along with a set of interactive Jupyter Notebooks will be updated along the year to provide all the ML program.
-This course is proudly provided by the <a href="http://github.com/acids-ircam" target="_blank">ACIDS</a> team.
+This course is proudly provided by the <a href="http://github.com/acids-ircam" target="_blank">ACIDS</a> group, part of the [Analysis / Synthesis](http://anasynth.ircam.fr/home/english) team at IRCAM.
 This course can be followed entirely online through the set of [Google slides](http://slides.google.com) and [Colab](http://colab.google.com) notebooks links provided openly along each lesson.
 However, we do recommend to fork the entire environment and follow the interactive notebooks through Jupyter lab to develop your
 own coding environment.
