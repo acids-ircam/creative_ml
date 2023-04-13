@@ -106,7 +106,7 @@ and tutorials that will be covered and how to setup the overall environment.
 
 [![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vQiFd_QE7kW1OK2q4tFOtTtXXidXqrNNRDW6-sHp_KhqBa0j2dOvBTgyah-XULhDSSMwZIJvCy0SFQ8/pub?start=false&loop=false&delayms=10000) 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-7DA416.svg?style=flat-square&logo=files)](01_machine_learning.pdf) 
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7DA416.svg?style=flat-square&logo=googlecolab)](https://drive.google.com/file/d/1N9GzmUaCA_26lQBwQu6rcSJD_dVF1eqE/view?usp=sharing) 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7DA416.svg?style=flat-square&logo=jupyter)](01a_machine_learning.ipynb) 
     
 This course introduces the formal notions required to understand machine learning along with classic problems of linear models 
