@@ -78,4 +78,14 @@ def scatter_classes(
     p.yaxis.axis_label = y_label
     #p.add_tools(BoxSelectTool(renderers=[cr], mode='append'))
     return p
-    
+
+def scatter_boundary(
+        x: jnp.ndarray,
+        y: jnp.ndarray,
+        title: str = r"Observations",
+        toolbar_location:str = None,
+        x_label:str = "x",
+        y_label:str = "y"
+        ):
+    fig = scatter_classes(x, y, title, toolbar_location, x_label, y_label)
+    return fig

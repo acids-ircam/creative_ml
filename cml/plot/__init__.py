@@ -24,7 +24,8 @@ from cml.plot.style import (
 )
 from cml.plot.basic import (
     scatter,
-    scatter_classes
+    scatter_classes,
+    scatter_boundary
 )
 from cml.plot.density import (
     density,
@@ -40,6 +41,7 @@ __all__ = [
     "cml_figure_axis",
     "scatter",
     "scatter_classes",
+    "scatter_boundary",
     "density",
     "density_2d"
 ]
