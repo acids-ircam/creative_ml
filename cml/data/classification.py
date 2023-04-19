@@ -68,7 +68,7 @@ def xor_separation(
     y_b = jnp.array([0, 1, 1, 0])
     x, y = [], []               
     # Generate 2-dimensional random points
-    n_augment = 1000 - n_observations
+    n_augment = (n_observations - 4) // 4
     for p in range(4):
        rep_pat = jnp.repeat(x_b[p, :][jnp.newaxis, :], n_augment, axis=0)
        x.append(Random().normal(shape=(n_augment, 2)) * dense_factor + rep_pat)
