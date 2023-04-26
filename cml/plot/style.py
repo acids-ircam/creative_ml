@@ -102,7 +102,7 @@ def cml_figure_matplotlib(
     mpl.rcParams['ps.useafm'] = True
     mpl.rcParams['pdf.use14corefonts'] = True
     mpl.rcParams['text.usetex'] = False
-    mpl.rcParams['font.sans-serif'] = 'Josefin Sans'
+    mpl.rcParams['font.sans-serif'] = 'Helvetica'
     #mpl.rcParams['text.hinting'] = False
     # Set colors cycle
     colors = mpl.cycler('color', ['#3388BB', '#EE6666', '#9988DD', '#EECC55', '#88BB44', '#FFBBBB'])

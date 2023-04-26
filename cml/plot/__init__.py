@@ -20,12 +20,14 @@ from cml.plot.style import (
     cml_figure,
     cml_figure_legend,
     cml_figure_colorbar,
-    cml_figure_axis
+    cml_figure_axis,
+    cml_figure_matplotlib
 )
 from cml.plot.basic import (
     scatter,
     scatter_classes,
-    scatter_boundary
+    scatter_boundary,
+    image
 )
 from cml.plot.density import (
     density,
@@ -39,9 +41,11 @@ __all__ = [
     "cml_figure_legend",
     "cml_figure_colorbar",
     "cml_figure_axis",
+    "cml_figure_matplotlib"
     "scatter",
     "scatter_classes",
     "scatter_boundary",
+    "image",
     "density",
     "density_2d"
 ]

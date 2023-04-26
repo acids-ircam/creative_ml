@@ -110,3 +110,18 @@ def scatter_boundary(
     for i in range(n_iter):
         fig.line(x_np, (-np.dot(weights[i, 0], x_np) - bias[i]) / weights[i, 1], line_dash='dashed', line_width=4, color=grad_color[i]);
     return fig
+
+def image(
+        img: jnp.ndarray,
+        title: str = r"Image",
+        toolbar_location:str = None,
+        x_label:str = "width",
+        y_label:str = "height"
+        ):
+    p = cml_figure(plot_width=img.shape[1]*2, plot_height=img.shape[2]*2, title=title)
+    p.image(image=[np.mean(img[:, ::-1, :], axis=0)], x = 0, y = 0, dh=img.shape[1], dw=img.shape[2], palette="Viridis256")
+    return p
+
+
+
+

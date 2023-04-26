@@ -14,6 +14,7 @@ jaxlib
 librosa
 manim
 matplotlib
+music21
 numpy
 optax
 pandas
