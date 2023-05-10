@@ -149,10 +149,10 @@ We further discuss issues of regularization and initialization in networks.
 
 ### [04 - Deep learning](04_deep_learning.pdf)
 
-[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
-[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Slides](https://img.shields.io/badge/Slides-none-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vTbg6NR7B92Db4fqcX1JWfW3eDhaR98OqHhv_OmuICo0q_TwbqQE_iD7wAvwl4HxH-IA1Ag3bLbKQWJ/pub?start=false&loop=false&delayms=60000) 
+[![Powerpoint](https://img.shields.io/badge/Slides-none-167DA4.svg?style=flat-square&logo=files)](04_deep_learning.pdf) 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](04a_deep_learning.ipynb) 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](04_deep_learning.ipynb) 
 
 We introduce here the fundamental shift towards deep learning, notably through the development of layerwise training 
 and auto-encoders. We discuss how these are now less relevant through novel regularization methods and data availability.
