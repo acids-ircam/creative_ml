@@ -60,7 +60,7 @@ the community and share experiences and problems.
         <li><a href="#lessons">Diffusion models</a></li>
       </ul>
     </li>
-    <li> <a href="#administrative">Datasets</a> </li>
+    <li> <a href="#administrative">Administrative</a> </li>
     <li> <a href="#details">Detailed lessons</a> </li>
     <li> <a href="#contribution">Contribution</a> </li>
     <li> <a href="#about">About</a> </li>
@@ -158,11 +158,6 @@ We introduce here the fundamental shift towards deep learning, notably through t
 and auto-encoders. We discuss how these are now less relevant through novel regularization methods and data availability.
 We finish this course by discussing the recent attention mechanism and transformer architectures and
 provide a set of modern applications.
-
-**Additional notebook on auto-encoders**
-
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](04b_auto_encoders.ipynb)
 
 ---
 
@@ -362,6 +357,23 @@ These administrative details concerns only the current physical session attached
 | July 6 | 11 - Guest lecture #1 |
 | July 13 | 12 - Guest lecture #2 |
 
+### Evaluation
+
+The notebooks will be evaluated through rolling deadlines that happen at 3
+sessions apart. Hence notebook for course 01 (Machine Learning) must be 
+submitted before the beginning of course 04 (Deep Learning), and that of 
+course 02 before course 05, and so forth.
+
+**Submission instructions:**
+
+Please add your informations for enrolling to the evaluation system by adding
+a row in the [following sheet](https://docs.google.com/spreadsheets/d/1pzssYXJIOwoRRc85LeKtdtGBbz32g0R-9_ko833WSZw/edit?usp=sharing)
+
+Once enrollment has been confirmed, you can register and submit your notebooks on the 
+follwing [web interface][https://okpy.org/utokyo/cml/su23/]
+[https://okpy.org/utokyo/cml/su23/](https://okpy.org/utokyo/cml/su23/)
+
+Assignments will be updated on a weekly basis.
 
 ## Contribution
 
