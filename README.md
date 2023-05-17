@@ -149,10 +149,10 @@ We further discuss issues of regularization and initialization in networks.
 
 ### [04 - Deep learning](04_deep_learning.pdf)
 
-[![Slides](https://img.shields.io/badge/Slides-none-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vTbg6NR7B92Db4fqcX1JWfW3eDhaR98OqHhv_OmuICo0q_TwbqQE_iD7wAvwl4HxH-IA1Ag3bLbKQWJ/pub?start=false&loop=false&delayms=60000) 
-[![Powerpoint](https://img.shields.io/badge/Slides-none-167DA4.svg?style=flat-square&logo=files)](04_deep_learning.pdf) 
-[![Colab](https://img.shields.io/badge/Notebook-none-7DA416.svg?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/1-OGz_vn-4gSa6jm5J6iXv_06X6dgKugq?usp=sharing) 
-[![Notebook](https://img.shields.io/badge/Notebook-none-167DA4.svg?style=flat-square&logo=jupyter)](04_deep_learning.ipynb) 
+[![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vTbg6NR7B92Db4fqcX1JWfW3eDhaR98OqHhv_OmuICo0q_TwbqQE_iD7wAvwl4HxH-IA1Ag3bLbKQWJ/pub?start=false&loop=false&delayms=60000) 
+[![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](04_deep_learning.pdf) 
+[![Colab](https://img.shields.io/badge/Notebook-none-colab.svg?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/1-OGz_vn-4gSa6jm5J6iXv_06X6dgKugq?usp=sharing) 
+[![Notebook](https://img.shields.io/badge/Notebook-none-download.svg?style=flat-square&logo=jupyter)](04_deep_learning.ipynb) 
 
 We introduce here the fundamental shift towards deep learning, notably through the development of layerwise training 
 and auto-encoders. We discuss how these are now less relevant through novel regularization methods and data availability.
@@ -163,10 +163,10 @@ provide a set of modern applications.
 
 ### [05 - Probabilities and Bayesian inference](05_probabilities_bayesian.pdf)
 
-[![Slides](https://img.shields.io/badge/Slides-none-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vSwbWj5_3IXT6Z1tvA9CtbrEEWc9o7WqeYqLnZQIIa6nIs-2_JbDWwA3pzkYNucDA51s4s6CkSU0XLy/pub?start=false&loop=false&delayms=60000) 
-[![Powerpoint](https://img.shields.io/badge/Slides-none-167DA4.svg?style=flat-square&logo=files)](05_probabilities_bayesian.pdf) 
-[![Colab](https://img.shields.io/badge/Notebook-none-7DA416.svg?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/1mYoX0tSFMzRDU1huPYAMBEZQxG9r-VjV?usp=sharing) 
-[![Notebook](https://img.shields.io/badge/Notebook-none-167DA4.svg?style=flat-square&logo=jupyter)](05_probabilities_bayesian.ipynb) 
+[![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vSwbWj5_3IXT6Z1tvA9CtbrEEWc9o7WqeYqLnZQIIa6nIs-2_JbDWwA3pzkYNucDA51s4s6CkSU0XLy/pub?start=false&loop=false&delayms=60000) 
+[![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](05_probabilities_bayesian.pdf) 
+[![Colab](https://img.shields.io/badge/Notebook-colab-7DA416.svg?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/1mYoX0tSFMzRDU1huPYAMBEZQxG9r-VjV?usp=sharing) 
+[![Notebook](https://img.shields.io/badge/Notebook-download-167DA4.svg?style=flat-square&logo=jupyter)](05_probabilities_bayesian.ipynb) 
 
 To operate the shift towards generative models, we introduce here the fundamentals of probabilities, distribution and inference.
 We discuss several properties and introduce Bayesian inference by developing the mathematical foundations of 
