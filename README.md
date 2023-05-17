@@ -166,17 +166,12 @@ provide a set of modern applications.
 [![Slides](https://img.shields.io/badge/Slides-none-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vSwbWj5_3IXT6Z1tvA9CtbrEEWc9o7WqeYqLnZQIIa6nIs-2_JbDWwA3pzkYNucDA51s4s6CkSU0XLy/pub?start=false&loop=false&delayms=60000) 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-167DA4.svg?style=flat-square&logo=files)](05_probabilities_bayesian.pdf) 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](05a_probabilities.ipynb) 
+[![Notebook](https://img.shields.io/badge/Notebook-none-167DA4.svg?style=flat-square&logo=jupyter)](05_probabilities_bayesian.ipynb) 
 
 To operate the shift towards generative models, we introduce here the fundamentals of probabilities, distribution and inference.
 We discuss several properties and introduce Bayesian inference by developing the mathematical foundations of 
 Maximum A Posteriori (MAP) and Maximum Likelihood (ML) techniques.
     
-**Additional notebook on Bayesian inference**
-
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](05b_bayesian_inference.ipynb) 
-
 ---
 
 ### [06 - Latent models](06_latent_expectation_maximization.pdf)

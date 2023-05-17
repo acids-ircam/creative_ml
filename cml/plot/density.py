@@ -10,6 +10,7 @@ from typing import Callable
 import jax.numpy as jnp
 import numpy as np
 from cml.plot import cml_figure, cml_figure_legend
+import matplotlib.pyplot as plt
 
 def density(
         x: jnp.ndarray, 
@@ -47,6 +48,37 @@ def density(
     p = cml_figure_legend(p)
     return p
 
+def gaussian_ellipsoid(m, C, sdwidth=1, npts=None, axh=None, color='r'):
+    # PLOT_GAUSSIAN_ELLIPSOIDS plots 2-d and 3-d Gaussian distributions
+    if axh is None:
+        axh = plt.gca()
+    if m.size != len(m): 
+        raise Exception('M must be a vector'); 
+    if (m.size == 2):
+        h = show2d(m[:], C, sdwidth, npts, axh, color)
+    elif (m.size == 3):
+        h = show3d(m[:], C, sdwidth, npts, axh, color)
+    else:
+        raise Exception('Unsupported dimensionality');
+    return h
+
+#-----------------------------
+def show2d(means, C, sdwidth, npts=None, axh=None, color='r'):
+    if (npts is None):
+        npts = 50
+    # plot the gaussian fits
+    tt = np.linspace(0, 2 * np.pi, npts).transpose()
+    x = np.cos(tt);
+    y = np.sin(tt);
+    ap = np.vstack((x[:], y[:])).transpose()
+    v, d = np.linalg.eigvals(C)
+    d = sdwidth / np.sqrt(d) # convert variance to sdwidth*sd
+    bp = np.dot(v, np.dot(d, ap)) + means
+    h = axh.plot(bp[:, 0], bp[:, 1], ls='-', color=color)
+    return h
+
+def show3d(means, C, sdwidth, npts=None, axh=None, color='r'):
+    pass
 
 def density_2d(
     prob_fn: Callable,

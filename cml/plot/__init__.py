@@ -31,7 +31,8 @@ from cml.plot.basic import (
 )
 from cml.plot.density import (
     density,
-    density_2d
+    density_2d,
+    gaussian_ellipsoid
 )
 
 __all__ = [
@@ -47,5 +48,6 @@ __all__ = [
     "scatter_boundary",
     "image",
     "density",
-    "density_2d"
+    "density_2d",
+    "gaussian_ellipsoid"
 ]
