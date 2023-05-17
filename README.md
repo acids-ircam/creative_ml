@@ -165,7 +165,7 @@ provide a set of modern applications.
 
 [![Slides](https://img.shields.io/badge/Slides-none-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vSwbWj5_3IXT6Z1tvA9CtbrEEWc9o7WqeYqLnZQIIa6nIs-2_JbDWwA3pzkYNucDA51s4s6CkSU0XLy/pub?start=false&loop=false&delayms=60000) 
 [![Powerpoint](https://img.shields.io/badge/Slides-none-167DA4.svg?style=flat-square&logo=files)](05_probabilities_bayesian.pdf) 
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
+[![Colab](https://img.shields.io/badge/Notebook-none-7DA416.svg?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/1mYoX0tSFMzRDU1huPYAMBEZQxG9r-VjV?usp=sharing) 
 [![Notebook](https://img.shields.io/badge/Notebook-none-167DA4.svg?style=flat-square&logo=jupyter)](05_probabilities_bayesian.ipynb) 
 
 To operate the shift towards generative models, we introduce here the fundamentals of probabilities, distribution and inference.
