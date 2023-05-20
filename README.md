@@ -151,8 +151,8 @@ We further discuss issues of regularization and initialization in networks.
 
 [![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vTbg6NR7B92Db4fqcX1JWfW3eDhaR98OqHhv_OmuICo0q_TwbqQE_iD7wAvwl4HxH-IA1Ag3bLbKQWJ/pub?start=false&loop=false&delayms=60000) 
 [![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](04_deep_learning.pdf) 
-[![Colab](https://img.shields.io/badge/Notebook-none-colab.svg?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/1-OGz_vn-4gSa6jm5J6iXv_06X6dgKugq?usp=sharing) 
-[![Notebook](https://img.shields.io/badge/Notebook-none-download.svg?style=flat-square&logo=jupyter)](04_deep_learning.ipynb) 
+[![Colab](https://img.shields.io/badge/Notebook-colab-7DA416.svg?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/1-OGz_vn-4gSa6jm5J6iXv_06X6dgKugq?usp=sharing) 
+[![Notebook](https://img.shields.io/badge/Notebook-download-167DA4.svg?style=flat-square&logo=jupyter)](04_deep_learning.ipynb) 
 
 We introduce here the fundamental shift towards deep learning, notably through the development of layerwise training 
 and auto-encoders. We discuss how these are now less relevant through novel regularization methods and data availability.
@@ -176,19 +176,14 @@ Maximum A Posteriori (MAP) and Maximum Likelihood (ML) techniques.
 
 ### [06 - Latent models](06_latent_expectation_maximization.pdf)
 
-[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
-[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vSk_urZWEl7xdyQPmc_5ly1Cl5-vARIRwnDrN4XNaULev0HM039ecPk4JLg9HMCIm8xGstQaaqJ1VXh/pub?start=false&loop=false&delayms=60000) 
+[![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](06_latent_models.pdf) 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](06a_latent_models.ipynb) 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](06_latent_models.ipynb) 
 
 We discuss the distinction between supervised and unsupervised learning, through the first context of clustering. 
 This allows to introduce the notion of latent variables and how we can solve for this using Expectation-Maximization (EM).
 We provide the full derivation through Variational inference and discuss the implementation of Gaussian Mixture Models (GMM)
-
-**Additional notebook on Gaussian Mixture Models (GMM)**
-
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](06b_gaussian_mixture_models.ipynb) 
 
 ---
 
