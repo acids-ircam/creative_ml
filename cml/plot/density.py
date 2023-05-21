@@ -6,11 +6,15 @@
                         <esling@ircam.fr>
 """
 
+import torch
 from typing import Callable
 import jax.numpy as jnp
 import numpy as np
 from cml.plot import cml_figure, cml_figure_legend
 import matplotlib.pyplot as plt
+from sklearn.mixture import GaussianMixture
+import torch.distributions as distribution
+from matplotlib.patches import Ellipse
 
 def density(
         x: jnp.ndarray, 
@@ -116,3 +120,75 @@ def density_2d(
     axs[1, 1].fill_between(np.sum(density, axis=1), Y[:, 0], alpha=0.5, color='#EE6666')
     plt.xlim([-3, 3]); plt.ylim([-3, 3])
     plt.show()
+    
+def fit_multivariate_gaussian(X_s):
+    gmm = GaussianMixture(n_components=1).fit(X_s)
+    labels = gmm.predict(X_s)
+    N = 50
+    X = np.linspace(-2, 10, N)
+    Y = np.linspace(-4, 4, N)
+    X, Y = np.meshgrid(X, Y)
+    # Pack X and Y into a single 3-dimensional array
+    pos = np.empty(X.shape + (2,))
+    pos[:, :, 0] = X
+    pos[:, :, 1] = Y
+    norm = distribution.MultivariateNormal(torch.Tensor(gmm.means_[0]), torch.Tensor(gmm.covariances_[0]))
+    Z = torch.exp(norm.log_prob(torch.Tensor(pos))).numpy()
+    plt.figure(figsize=(10, 8));
+    ax = plt.gca()
+    ax.contourf(X, Y, Z, cmap='magma')
+    plt.scatter(X_s[:, 0], X_s[:, 1], c='b', s=60, edgecolor='w', zorder=2.5); plt.grid(True);
+    return labels
+
+def fit_gaussian_mixture(X_s):
+    gmm = GaussianMixture(n_components=4).fit(X_s)
+    labels = gmm.predict(X_s)
+    N = 50
+    X = np.linspace(-2, 10, N)
+    Y = np.linspace(-4, 4, N)
+    X, Y = np.meshgrid(X, Y)
+    # Pack X and Y into a single 3-dimensional array
+    pos = np.empty(X.shape + (2,))
+    pos[:, :, 0] = X
+    pos[:, :, 1] = Y
+    Z = np.zeros((pos.shape[0], pos.shape[1]))
+    for i in range(4):
+        norm = distribution.MultivariateNormal(torch.Tensor(gmm.means_[i]), torch.Tensor(gmm.covariances_[i]))
+        Z += torch.exp(norm.log_prob(torch.Tensor(pos))).numpy()
+    plt.figure(figsize=(10, 8));
+    ax = plt.gca()
+    ax.contourf(X, Y, Z, cmap='magma')
+    plt.scatter(X_s[:, 0], X_s[:, 1], c='b', s=60, edgecolor='w', zorder=2.5); plt.grid(True);
+    return labels
+
+def draw_ellipse(position, covariance, ax=None, **kwargs):
+    """Draw an ellipse with a given position and covariance"""
+    ax = ax or plt.gca()
+    
+    # Convert covariance to principal axes
+    if covariance.shape == (2, 2):
+        U, s, Vt = np.linalg.svd(covariance)
+        angle = np.degrees(np.arctan2(U[1, 0], U[0, 0]))
+        width, height = 2 * np.sqrt(s)
+    else:
+        angle = 0
+        width, height = 2 * np.sqrt(covariance)
+    
+    # Draw the Ellipse
+    for nsig in range(1, 4):
+        ax.add_patch(Ellipse(position, nsig * width, nsig * height,
+                             angle, **kwargs))
+        
+def plot_gmm(gmm, X, label=True, ax=None):
+    plt.figure(figsize=(10,8))
+    ax = ax or plt.gca()
+    labels = gmm.fit(X).predict(X)
+    if label:
+        ax.scatter(X[:, 0], X[:, 1], c=labels, s=40, cmap='magma', edgecolor='gray', zorder=2)
+    else:
+        ax.scatter(X[:, 0], X[:, 1], s=40, zorder=2)
+    ax.axis('equal')
+    
+    w_factor = 0.4 / gmm.weights_.max()
+    for pos, covar, w in zip(gmm.means_, gmm.covariances_, gmm.weights_):
+        draw_ellipse(pos, covar, alpha=w * w_factor)

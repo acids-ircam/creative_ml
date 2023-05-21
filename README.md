@@ -178,8 +178,8 @@ Maximum A Posteriori (MAP) and Maximum Likelihood (ML) techniques.
 
 [![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vSk_urZWEl7xdyQPmc_5ly1Cl5-vARIRwnDrN4XNaULev0HM039ecPk4JLg9HMCIm8xGstQaaqJ1VXh/pub?start=false&loop=false&delayms=60000) 
 [![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](06_latent_models.pdf) 
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](06_latent_models.ipynb) 
+[![Colab](https://img.shields.io/badge/Notebook-colab-7DA416.svg?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/17fqMaeY3yrOUHyJI33foz7xFrJrI5w5C?usp=sharing) 
+[![Notebook](https://img.shields.io/badge/Notebook-download-167DA4.svg?style=flat-square&logo=jupyter)](06_latent_models.ipynb) 
 
 We discuss the distinction between supervised and unsupervised learning, through the first context of clustering. 
 This allows to introduce the notion of latent variables and how we can solve for this using Expectation-Maximization (EM).

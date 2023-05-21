@@ -32,7 +32,10 @@ from cml.plot.basic import (
 from cml.plot.density import (
     density,
     density_2d,
-    gaussian_ellipsoid
+    gaussian_ellipsoid,
+    fit_multivariate_gaussian,
+    fit_gaussian_mixture,
+    plot_gmm
 )
 
 __all__ = [
@@ -42,12 +45,15 @@ __all__ = [
     "cml_figure_legend",
     "cml_figure_colorbar",
     "cml_figure_axis",
-    "cml_figure_matplotlib"
+    "cml_figure_matplotlib",
     "scatter",
     "scatter_classes",
     "scatter_boundary",
     "image",
     "density",
     "density_2d",
-    "gaussian_ellipsoid"
+    "gaussian_ellipsoid",
+    "fit_multivariate_gaussian",
+    "fit_gaussian_mixture",
+    "plot_gmm"
 ]
