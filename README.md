@@ -190,7 +190,7 @@ We provide the full derivation through Variational inference and discuss the imp
 ### [07 - Approximate inference](07_approximate_inference.pdf)
 
 [![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vTRPOFFdfMkovNmVbvUCwZ_P99HuJnXfXI0_YBc-0Yo_QK-Xy73M7m7ZKqPl9AaIM8rjxjJ52LFmRbI/pub?start=false&loop=false&delayms=60000) 
-[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](07_approximate_inference.pdf) 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](07_approximate_inference.ipynb) 
 
