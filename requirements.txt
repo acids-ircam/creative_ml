@@ -12,7 +12,6 @@ holoviews
 jax
 jaxlib
 librosa
-manim
 matplotlib
 music21
 numpy
