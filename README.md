@@ -202,7 +202,7 @@ We further show how variational inference can provide an elegant solution to our
 
 ### [08 - Variational Auto-Encoder (VAE) and flows](08_variational_ae_flows.pdf)
 
-[![Slides](https://img.shields.io/badge/Slides-online-7DA416..svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vR4jgsV-wBI3R3qpZ3-Z9LzppzHKvCl6NzUBy5hdKlMBfEFmQUhNen_6I8GxZxX6aBPthv9ZKNehcvq/pub?start=false&loop=false&delayms=60000) 
+[![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vR4jgsV-wBI3R3qpZ3-Z9LzppzHKvCl6NzUBy5hdKlMBfEFmQUhNen_6I8GxZxX6aBPthv9ZKNehcvq/pub?start=false&loop=false&delayms=60000) 
 [![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](08_variational_ae_flows.pdf) 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
 [![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](08a_variational_auto_encoders.ipynb) 
