@@ -191,8 +191,8 @@ We provide the full derivation through Variational inference and discuss the imp
 
 [![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vTRPOFFdfMkovNmVbvUCwZ_P99HuJnXfXI0_YBc-0Yo_QK-Xy73M7m7ZKqPl9AaIM8rjxjJ52LFmRbI/pub?start=false&loop=false&delayms=60000) 
 [![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](07_approximate_inference.pdf) 
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](07_approximate_inference.ipynb) 
+[![Colab](https://img.shields.io/badge/Notebook-colab-7DA416.svg?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/1WtD-fbHRxuVotwTv2w1yRDF57iz7aB5P?usp=sharing) 
+[![Notebook](https://img.shields.io/badge/Notebook-download-167DA4.svg?style=flat-square&logo=jupyter)](07_approximate_inference.ipynb) 
 
 We introduce here the notion of approximate inference, through historical applications of sampling with Monte-Carlo and Metropolis-Hastings.
 We further show how variational inference can provide an elegant solution to our estimation problems and discuss its implications.
