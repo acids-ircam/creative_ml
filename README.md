@@ -220,10 +220,10 @@ used in generative contexts.
 
 ### [09 - Adversarial learning](09_adversarial_learning.pdf)
 
-[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
-[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
+[![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vRELaGt82jgf2lZkvKj9JpdonqAjizSBstQ1PmC1K_0FC8DYXXWhgQhiUU1pNVWQh6luEEhPikmliJz/pub?start=false&loop=false&delayms=60000) 
+[![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](09_adversarial_learning.pdf) 
 [![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](09a_generative_adversarial_network.ipynb) 
+[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](09_adversarial_learning.ipynb) 
 
 We introduce the notion of estimating by comparing and derive the complete adversarial objective naturally from this observation.
 After discussing adversarial attacks, we introduce Generative Adversarial Networks (GANs), which are still competitive generative
