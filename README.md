@@ -234,10 +234,10 @@ models to this day. We discuss flaws and limitations of GANs and introduce their
 
 ### [10 - Diffusion models](10_diffusion_models.pdf)
 
-[![Slides](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=googledrive)]() 
-[![Powerpoint](https://img.shields.io/badge/Slides-none-7D1616.svg?style=flat-square&logo=files)]() 
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](10a_diffusion_models.ipynb) 
+[![Slides](https://img.shields.io/badge/Slides-online-7DA416.svg?style=flat-square&logo=googledrive)](https://docs.google.com/presentation/d/e/2PACX-1vRs4GLiIpsAf8v6-AY5sQRgt29orreNCGxgBVUbQ0niA-TceRBxlvpe4ACwZlNoT4CiMazRwRTPBv-M/pub?start=false&loop=false&delayms=60000) 
+[![Powerpoint](https://img.shields.io/badge/Slides-download-167DA4.svg?style=flat-square&logo=files)](10_diffusion_models.pdf) 
+[![Colab](https://img.shields.io/badge/Notebook-colab-7DA416.svg?style=flat-square&logo=googlecolab)](https://colab.research.google.com/drive/1WIZXCSW8Zb-HpAgXpLGModQ81YXspnKw?usp=sharing) 
+[![Notebook](https://img.shields.io/badge/Notebook-download-167DA4.svg?style=flat-square&logo=jupyter)](10_diffusion_models.ipynb) 
 
 This course explores the new class of generative models based on diffusion probabilistic models. 
 This class of models is inspired by thermodynamics, but also denoising score matching, Langevin dynamics and autoregressive decoding.
