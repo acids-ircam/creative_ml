@@ -246,7 +246,7 @@ We will also discuss the more recent development of denoising diffusion implicit
 
 ---
 
-### 11 - Guest lecture
+### 11 - Guest lecture (University of Tokyo)
 
 This year we are very happy to host two special guest lectures that are aimed to provide an advanced view
 on both the academic and industrial research currently undergoing in creative machine learning.
@@ -310,10 +310,59 @@ Then, once installed, you can go to the folder where you cloned this repository,
 jupyter lab
 ```
 
+### Evaluation
 
-## Administrative 
+The notebooks will be evaluated through rolling deadlines that happen at 3
+sessions apart. Hence notebook for course 01 (Machine Learning) must be 
+submitted before the beginning of course 04 (Deep Learning), and that of 
+course 02 before course 05, and so forth.
 
-These administrative details concerns only the current physical session attached to the corresponding university.
+**Submission instructions:**
+
+Please add your informations for enrolling to the evaluation system by adding
+a row in the [following sheet](https://docs.google.com/spreadsheets/d/12sJhd6IYinrkKN-yL_Yr-ip2cHD8jQz0IDB7RIJoO5w/edit?usp=sharing)
+
+Once enrollment has been confirmed, you can register and submit your notebooks on the 
+following [web interface][https://okpy.org/atiam/cml/au23/]
+[https://okpy.org/atiam/cml/au23/](https://okpy.org/atiam/cml/au23/)
+
+Assignments will be updated on a weekly basis.
+
+## Administrative (ATIAM - IRCAM)
+
+These administrative details concerns only the current (autumn) physical session attached to the ATIAM Masters (IRCAM)
+
+### Course details
+
+| Type | Information |
+|----------:|:-------------|
+| **Type**   | Masters (3-ECTS) school course  |
+| **Period** | September - December 2023 |
+| **Span**   | 7 classes of 200 minutes (sessions of 55 minutes) |
+| **Date**   | Variable slots (check calendar) |
+| **Onsite** | Room Stravinsky, IRCAM, -2 |
+| **Online** | N / A |
+
+
+### Full calendar
+
+| Date | Course |
+|----------:|:-------------|
+| November 10 | 00 - Introduction |
+| November 10 | 01 - Machine learning |
+| November 13 | 02 - Neural networks |
+| November 13 | 03 - Advanced networks |
+| November 20 | 04 - Deep learning |
+| November 30 | 05 - Bayesian inference |
+| November 30 | 06 - Latent models |
+| December 08 | 07 - Approximate inference |
+| December 08 | 08 - VAEs and flows |
+| December 11 | 09 - Adversarial networks |
+| December 18 | 10 - Diffusion models |
+
+## Administrative (University of Tokyo)
+
+These administrative details concerns only the current (spring) physical session attached to the University of Tokyo (Spring session)
 
 ### Course details
 
@@ -346,24 +395,6 @@ These administrative details concerns only the current physical session attached
 | June 29 | 10 - Diffusion models |
 | July 6 | 11 - Guest lecture #1 |
 | July 13 | 12 - Guest lecture #2 |
-
-### Evaluation
-
-The notebooks will be evaluated through rolling deadlines that happen at 3
-sessions apart. Hence notebook for course 01 (Machine Learning) must be 
-submitted before the beginning of course 04 (Deep Learning), and that of 
-course 02 before course 05, and so forth.
-
-**Submission instructions:**
-
-Please add your informations for enrolling to the evaluation system by adding
-a row in the [following sheet](https://docs.google.com/spreadsheets/d/1pzssYXJIOwoRRc85LeKtdtGBbz32g0R-9_ko833WSZw/edit?usp=sharing)
-
-Once enrollment has been confirmed, you can register and submit your notebooks on the 
-follwing [web interface][https://okpy.org/utokyo/cml/su23/]
-[https://okpy.org/utokyo/cml/su23/](https://okpy.org/utokyo/cml/su23/)
-
-Assignments will be updated on a weekly basis.
 
 ## Contribution
 
