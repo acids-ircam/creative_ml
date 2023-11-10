@@ -74,7 +74,7 @@ class DensityTask(MLTask):
             pn.Row(
                 pn.Param(self.param, name="Problem parameters"),
                 self.plot),
-            pn.widgets.Ace(value=py_code, sizing_mode='stretch_both', language='python', theme="chaos", height=30 * n_lines),
+            pn.widgets.CodeEditor(value=py_code, language='python', theme="chaos", height=30*n_lines),
         )
     
 class DensityGaussian(DensityTask):

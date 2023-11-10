@@ -83,7 +83,7 @@ class RegressionTask(MLTask):
                              name="Problem parameters",
                              widgets = self.widgets),
                     self.plot),
-                pn.widgets.Ace(value=py_code, sizing_mode='stretch_both', language='python', theme="chaos", height=30 * n_lines),  
+                pn.widgets.CodeEditor(value=py_code, language='python', theme="chaos", height=30 * n_lines, width=640),  
             ),
             pn.layout.HSpacer(),
             )

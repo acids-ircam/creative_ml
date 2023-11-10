@@ -36,7 +36,7 @@ def cml_figure(
 
     """
     # Create a Bokeh figure
-    p = figure(plot_width=plot_width, plot_height=plot_height, **kwargs)
+    p = figure(width=plot_width, height=plot_height, **kwargs)
     # Background properties
     p.background_fill_color = '#0f0f0f'
     p.background_fill_alpha = 0.9
