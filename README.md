@@ -328,38 +328,6 @@ following [web interface][https://okpy.org/atiam/cml/au23/]
 
 Assignments will be updated on a weekly basis.
 
-## Administrative (ATIAM - IRCAM)
-
-These administrative details concerns only the current (autumn) physical session attached to the ATIAM Masters (IRCAM)
-
-### Course details
-
-| Type | Information |
-|----------:|:-------------|
-| **Type**   | Masters (3-ECTS) school course  |
-| **Period** | September - December 2023 |
-| **Span**   | 7 classes of 200 minutes (sessions of 55 minutes) |
-| **Date**   | Variable slots (check calendar) |
-| **Onsite** | Room Stravinsky, IRCAM, -2 |
-| **Online** | N / A |
-
-
-### Full calendar
-
-| Date | Course |
-|----------:|:-------------|
-| November 10 | 00 - Introduction |
-| November 10 | 01 - Machine learning |
-| November 13 | 02 - Neural networks |
-| November 13 | 03 - Advanced networks |
-| November 20 | 04 - Deep learning |
-| November 30 | 05 - Bayesian inference |
-| November 30 | 06 - Latent models |
-| December 08 | 07 - Approximate inference |
-| December 08 | 08 - VAEs and flows |
-| December 11 | 09 - Adversarial networks |
-| December 18 | 10 - Diffusion models |
-
 ## Administrative (University of Tokyo)
 
 These administrative details concerns only the current (spring) physical session attached to the University of Tokyo (Spring session)
@@ -395,6 +363,38 @@ These administrative details concerns only the current (spring) physical session
 | June 29 | 10 - Diffusion models |
 | July 6 | 11 - Guest lecture #1 |
 | July 13 | 12 - Guest lecture #2 |
+
+## Administrative (ATIAM - IRCAM)
+
+These administrative details concerns only the current (autumn) physical session attached to the ATIAM Masters (IRCAM)
+
+### Course details
+
+| Type | Information |
+|----------:|:-------------|
+| **Type**   | Masters (3-ECTS) school course  |
+| **Period** | September - December 2023 |
+| **Span**   | 7 classes of 200 minutes (sessions of 55 minutes) |
+| **Date**   | Variable slots (check calendar) |
+| **Onsite** | Room Stravinsky, IRCAM, -2 |
+| **Online** | N / A |
+
+
+### Full calendar
+
+| Date | Course |
+|----------:|:-------------|
+| November 10 | 00 - Introduction |
+| November 10 | 01 - Machine learning |
+| November 13 | 02 - Neural networks |
+| November 13 | 03 - Advanced networks |
+| November 20 | 04 - Deep learning |
+| November 30 | 05 - Bayesian inference |
+| November 30 | 06 - Latent models |
+| December 08 | 07 - Approximate inference |
+| December 08 | 08 - VAEs and flows |
+| December 11 | 09 - Adversarial networks |
+| December 18 | 10 - Diffusion models |
 
 ## Contribution
 
