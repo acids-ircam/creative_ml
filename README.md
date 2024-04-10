@@ -348,21 +348,19 @@ These administrative details concerns only the current (spring) physical session
 
 | Date | Course |
 |----------:|:-------------|
-| April 6 | 00 - Introduction |
-| April 13 | 01 - Machine learning |
-| April 20 | 02 - Neural networks |
-| April 27 | 03 - Advanced networks |
-| May 4 | **National holiday** |
-| May 11 | 04 - Deep learning |
-| May 18 | 05 - Bayesian inference |
-| May 25 | 06 - Latent models |
-| June 1 | **Midterm exam** |
-| June 8 | 07 - Approximate inference |
-| June 15 | 08 - VAEs and flows |
-| June 22 | 09 - Adversarial networks |
-| June 29 | 10 - Diffusion models |
-| July 6 | 11 - Guest lecture #1 |
-| July 13 | 12 - Guest lecture #2 |
+| April 11 | 00 - Introduction |
+| April 18 | 01 - Machine learning |
+| April 25 | 02 - Neural networks |
+| May 2 | 03 - Advanced networks |
+| May 9 | 04 - Deep learning |
+| May 16 | 05 - Bayesian inference |
+| May 23 | 06 - Latent models |
+| May 30 | **No course** |
+| June 6 | 07 - Approximate inference |
+| June 13 | 08 - VAEs and flows |
+| June 20 | 09 - Adversarial networks |
+| June 27 | 10 - Diffusion models |
+| July 4 | 11 - Guest lecture #1 |
 
 ## Administrative (ATIAM - IRCAM)
 
