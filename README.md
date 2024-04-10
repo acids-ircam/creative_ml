@@ -113,11 +113,6 @@ This course introduces the formal notions required to understand machine learnin
 for regression and classification. We discuss the mathematical derivation for optimization and various problems of overfitting, cross-validation
 and model properties and complexity that are still quintessential in modern machine learning.
 
-**Additional notebook on feature-based learning**
-
-[![Colab](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=googlecolab)]() 
-[![Notebook](https://img.shields.io/badge/Notebook-none-7D1616.svg?style=flat-square&logo=jupyter)](01b_feature_based_learning.ipynb) 
-
 ---
 
 ### [02 - Neural networks](02_neural_networks.pdf)
