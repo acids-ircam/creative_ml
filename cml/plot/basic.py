@@ -31,7 +31,7 @@ def scatter(
         toolbar_location=toolbar_location, 
         title=title)
     # Display the circles
-    cr = p.circle(
+    cr = p.scatter(
         np.array(x), 
         np.array(y), 
         size = 10,
@@ -72,7 +72,7 @@ def scatter_classes(
         color=[colors[c] for c in classes],
         label=[symbols[c] for c in classes]
     ))
-    p.circle( x='x', y='y', color='color', legend_field='label', source=source, size=10, alpha=0.6, line_color="white")
+    p.scatter( x='x', y='y', color='color', legend_field='label', source=source, size=10, alpha=0.6, line_color="white")
     
     #cr.selection_glyph = Circle(fill_color="red", fill_alpha=0.8, line_color="white")
     #cr.nonselection_glyph = Circle(fill_color="midnightblue", fill_alpha=0.5, line_color="white")

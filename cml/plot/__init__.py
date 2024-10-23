@@ -7,6 +7,7 @@
 """
 from bokeh.io import output_notebook
 from bokeh.plotting import curdoc
+from bokeh.resources import INLINE
 import panel as pn
 
 def center_plot(p):
@@ -14,7 +15,7 @@ def center_plot(p):
 
 def initialize_bokeh():
     curdoc().theme = "dark_minimal"
-    output_notebook()
+    output_notebook(INLINE)
 
 from cml.plot.style import (
     cml_figure,
