@@ -45,7 +45,7 @@ the community and share experiences and problems.
 
 Starting from the Spring 2025 (Tokyo) session, all the assignments and grading will be performed thanks to [GitHub classroom](https://classroom.github.com/). Since it is a new system, some features might be still in development, but this should provide auto-grading and immediate feedback to enhance your learning experience. Please report any potential improvements to make on the Discord.
 
-
+Refer to the [evaluation section](#evaluation) at the end of the lessons details for more information.
 
 <details>
   <summary>Table of Contents</summary>
@@ -310,7 +310,7 @@ Then, once installed, you can go to the folder where you cloned this repository,
 jupyter lab
 ```
 
-### Evaluation
+## Evaluation
 
 The notebooks will be evaluated through rolling deadlines that happen at 3
 sessions apart. Hence notebook for course 01 (Machine Learning) must be 
@@ -318,9 +318,6 @@ submitted before the beginning of course 04 (Deep Learning), and that of
 course 02 before course 05, and so forth.
 
 **Submission instructions:**
-
-Please add your informations for enrolling to the evaluation system by adding
-a row in the [following sheet](https://docs.google.com/spreadsheets/d/12sJhd6IYinrkKN-yL_Yr-ip2cHD8jQz0IDB7RIJoO5w/edit?usp=sharing)
 
 Once enrollment has been confirmed, you can register and submit your notebooks on the 
 following [web interface][https://okpy.org/atiam/cml/au23/]
