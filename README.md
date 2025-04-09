@@ -36,10 +36,15 @@ own coding environment.
 **As the development of this course is always ongoing, please pull this repo regularly to stay updated.**
 **Also, please do not hesitate to post issues or PRs if you spot any mistake** (see the [contribution section](#contribution)).
 
-#### Discord channel
+### Discord channel
 
 Join the [Discord channel](https://discord.gg/meWN48rynW) of this course to join
 the community and share experiences and problems.
+
+### Important update on grading
+
+Starting from the Spring 2025 (Tokyo) session, all the assignments and grading will be performed thanks to [GitHub classroom](https://classroom.github.com/). Since it is a new system, some features might be still in development, but this should provide auto-grading and immediate feedback to enhance your learning experience. Please report any potential improvements to make on the Discord.
+
 
 
 <details>
@@ -323,19 +328,19 @@ following [web interface][https://okpy.org/atiam/cml/au23/]
 
 Assignments will be updated on a weekly basis.
 
-## Administrative (University of Tokyo)
+## Administrative (University of Tokyo / Spring 2025)
 
-These administrative details concerns only the current (spring) physical session attached to the University of Tokyo (Spring session)
+These administrative details concerns only the current (spring) physical session attached to the University of Tokyo (Spring 2025 session)
 
 ### Course details
 
 | Type | Information |
 |----------:|:-------------|
 | **Type**   | 2-credits graduate school course  |
-| **Period** | April - July 2023 |
+| **Period** | April - July 2025 |
 | **Span**   | 13 classes of 105 minutes |
 | **Date**   | Thursday at 2:55 - 4:40 pm (JST Time) |
-| **Onsite** | Room 214, 2nd Floor, Sci. 7 Building |
+| **Onsite** | Seminar Room C, Engineer. 6 Building |
 | **Online** | https://u-tokyo-ac-jp.zoom.us/j/81363691008?pwd=cmxiRURMdm9udXBKbTNjQkZvblNFQT09 |
 
 
@@ -343,21 +348,22 @@ These administrative details concerns only the current (spring) physical session
 
 | Date | Course |
 |----------:|:-------------|
-| April 11 | 00 - Introduction |
-| April 18 | 01 - Machine learning |
-| April 25 | 02 - Neural networks |
-| May 2 | 03 - Advanced networks |
-| May 9 | 04 - Deep learning |
-| May 16 | 05 - Bayesian inference |
-| May 23 | 06 - Latent models |
-| May 30 | **No course** |
-| June 6 | 07 - Approximate inference |
-| June 13 | 08 - VAEs and flows |
-| June 20 | 09 - Adversarial networks |
-| June 27 | 10 - Diffusion models |
-| July 4 | 11 - Guest lecture #1 |
+| April 10 | 00 - Introduction |
+| April 17 | 01 - Machine learning |
+| April 24 | 02 - Neural networks |
+| May 1 | 03 - Advanced networks |
+| May 8 | **No course** |
+| May 15 | 04 - Deep learning |
+| May 22 | 05 - Bayesian inference |
+| May 29 | 06 - Latent models |
+| June 5 | 07 - Approximate inference |
+| June 12 | **No course** |
+| June 19 | 08 - VAEs and flows |
+| June 26 | 09 - Adversarial networks |
+| July 3 | 10 - Diffusion models |
+| July 10 | 11 - Guest lecture #1 |
 
-## Administrative (ATIAM - IRCAM)
+## Administrative (ATIAM - IRCAM / Autumn 2024)
 
 These administrative details concerns only the current (autumn) physical session attached to the ATIAM Masters (IRCAM)
 
@@ -366,7 +372,7 @@ These administrative details concerns only the current (autumn) physical session
 | Type | Information |
 |----------:|:-------------|
 | **Type**   | Masters (3-ECTS) school course  |
-| **Period** | September - December 2023 |
+| **Period** | September - December 2024 |
 | **Span**   | 7 classes of 200 minutes (sessions of 55 minutes) |
 | **Date**   | Variable slots (check calendar) |
 | **Onsite** | Room Stravinsky, IRCAM, -2 |
@@ -388,6 +394,16 @@ These administrative details concerns only the current (autumn) physical session
 | December 08 | 08 - VAEs and flows |
 | December 11 | 09 - Adversarial networks |
 | December 18 | 10 - Diffusion models |
+
+## Past sessions
+
+The course has ben provided for the past 3 years in two different sides of the world:
+- [2022 - Autumn] : IRCAM, Paris
+- [2023 - Spring] : The University of Tokyo, Japan
+- [2023 - Autumn] : IRCAM, Paris
+- [2024 - Spring] : The University of Tokyo, Japan
+- [2024 - Autumn] : IRCAM, Paris
+- [2025 - Spring] : The University of Tokyo, Japan
 
 ## Contribution
 
