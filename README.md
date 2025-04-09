@@ -338,6 +338,10 @@ Auto-grading will be triggered automatically on push, which allows you to see ho
 
 Assignments will be updated on a weekly basis.
 
+**Solutions**
+
+Once the deadline has passed, you will loose write access to your repository and the last pushed version will be manually evaluated. This will also allow you to obtain a private link to the complete solution of the corresponding notebook. **Please do not share these solutions to anyone**
+
 ## Administrative (University of Tokyo / Spring 2025)
 
 These administrative details concerns only the current (spring) physical session attached to the University of Tokyo (Spring 2025 session)
