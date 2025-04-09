@@ -104,6 +104,8 @@ This course provides a brief history of the development of artificial intelligen
 through a series of recent applications in the creative fields. This course also presents the pre-requisites, course specificities, toolboxes
 and tutorials that will be covered and how to setup the overall environment.
 
+**[GitHub assignment](https://classroom.github.com/a/oTegVXe4)**
+
 
 ---
 
@@ -314,6 +316,20 @@ jupyter lab
 
 The notebooks will be evaluated through rolling deadlines that happen at **3 sessions apart**. Hence notebook for _Course 01 (Machine Learning)_ must be 
 submitted before the beginning of _Course 04 (Deep Learning)_, and that of course 02 before course 05, and so forth.
+
+### List of assignments
+
+- **[00 - Setup - GitHub assignment](https://classroom.github.com/a/oTegVXe4)**
+- 01 - Machine learning - GitHub assignment (released : 25.04.17)
+- 02 - Neural networks - GitHub assignment (released : 25.04.24)
+- 03 - Advanced networks - GitHub assignment (released : 25.05.01)
+- 04 - Deep learning - GitHub assignment (released : 25.05.15)
+- 05 - Bayesian inference - GitHub assignment (released : 25.05.22)
+- 06 - Latent models - GitHub assignment (released : 25.05.29)
+- 07 - Variational inference - GitHub assignment (released : 25.06.05)
+- 08 - Normalizing flows - GitHub assignment (released : 25.06.19)
+- 09 - Adversarial networks - GitHub assignment (released : 25.06.09)
+- 10 - Diffusion models- GitHub assignment (released : 25.07.03)
 
 **Submission instructions:**
 
