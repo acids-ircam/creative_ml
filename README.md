@@ -312,16 +312,29 @@ jupyter lab
 
 ## Evaluation
 
-The notebooks will be evaluated through rolling deadlines that happen at 3
-sessions apart. Hence notebook for course 01 (Machine Learning) must be 
-submitted before the beginning of course 04 (Deep Learning), and that of 
-course 02 before course 05, and so forth.
+The notebooks will be evaluated through rolling deadlines that happen at **3 sessions apart**. Hence notebook for _Course 01 (Machine Learning)_ must be 
+submitted before the beginning of _Course 04 (Deep Learning)_, and that of course 02 before course 05, and so forth.
 
 **Submission instructions:**
 
-Once enrollment has been confirmed, you can register and submit your notebooks on the 
-following [web interface][https://okpy.org/atiam/cml/au23/]
-[https://okpy.org/atiam/cml/au23/](https://okpy.org/atiam/cml/au23/)
+For each of the course, a separate assignment is generated through the provided GitHub Classroom link. Once you click on "Accept assignment", your individual submission repository will be automatically created (in the form : https://github.com/ACIDS-Paris/cml-XX-[assignment_name]-[your_name]). This link will be available on the page. You should then clone your repo locally as follows
+
+``` bash
+git clone https://github.com/ACIDS-Paris/cml-XX-[assignment_name]-[your_name]
+```
+
+You can then open the notebook locally or via Google Colab (by linking GitHub directly). Please follow the instructions and correctly fill the empty notebook cells with the correct function names and other indications as required. You can then save and push your code directly as
+
+```bash
+git commit -m "Finished Assignment 1"
+git push
+```
+
+**Auto-grading** 
+
+Auto-grading will be triggered automatically on push, which allows you to see how well your answer performs on automated tests in GitHub immediately.
+
+:warning: Note that the auto-grading does not represent your final grade for the course ! Your submissions will also be manually reviewed to ensure the quality of your code and its content. Hence, you can also gain points with answers that do not pass the tests ... But you can also loose points if the solution is not adequate or ill-coded.
 
 Assignments will be updated on a weekly basis.
 
