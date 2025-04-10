@@ -75,17 +75,13 @@ class RegressionTask(MLTask):
     def render(self):
         py_code = remove_comments(inspect.getsource(self.data_generator))[:-1]
         n_lines = py_code.count('\n')
-        return pn.Row(
-            pn.layout.HSpacer(),
-            pn.Column(
+        return pn.Column(
                 pn.Row(
                     pn.Param(self.param, 
                              name="Problem parameters",
                              widgets = self.widgets),
                     self.plot),
-                pn.widgets.CodeEditor(value=py_code, language='python', theme="chaos", height=30 * n_lines, width=640),  
-            ),
-            pn.layout.HSpacer(),
+                #pn.widgets.CodeEditor(value=py_code, language='python', height=30 * n_lines, width=640),  
             )
 
 class RegressionLinear(RegressionTask):

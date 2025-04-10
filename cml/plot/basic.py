@@ -34,7 +34,7 @@ def scatter(
     cr = p.circle(
         np.array(x), 
         np.array(y), 
-        size = 10,
+        radius = 0.01,
         fill_color="midnightblue", 
         alpha = 0.25, 
         line_color = "white",
@@ -48,8 +48,8 @@ def scatter(
     # Put hover tool
     p.add_tools(HoverTool(tooltips=None, renderers=[cr], mode='vline'))
     # Put selection tool
-    cr.selection_glyph = Circle(fill_color="red", fill_alpha=0.8, line_color="white")
-    cr.nonselection_glyph = Circle(fill_color="midnightblue", fill_alpha=0.5, line_color="white")
+    cr.selection_glyph = Circle(fill_color="red", fill_alpha=0.8, line_color="white", radius=0.01)
+    cr.nonselection_glyph = Circle(fill_color="midnightblue", fill_alpha=0.5, line_color="white", radius=0.01)
     p.add_tools(BoxSelectTool(renderers=[cr], mode='append'))
     # Add the legend
     p = cml_figure_legend(p)
@@ -72,10 +72,10 @@ def scatter_classes(
         color=[colors[c] for c in classes],
         label=[symbols[c] for c in classes]
     ))
-    p.circle( x='x', y='y', color='color', legend_field='label', source=source, size=10, alpha=0.6, line_color="white")
+    p.circle( x='x', y='y', color='color', legend_field='label', source=source, radius=0.01, alpha=0.6, line_color="white")
     
-    #cr.selection_glyph = Circle(fill_color="red", fill_alpha=0.8, line_color="white")
-    #cr.nonselection_glyph = Circle(fill_color="midnightblue", fill_alpha=0.5, line_color="white")
+    #p.selection_glyph = Circle(fill_color="red", fill_alpha=0.8, line_color="white", radius=10)
+    #p.nonselection_glyph = Circle(fill_color="midnightblue", fill_alpha=0.5, line_color="white", radius=10)
     p.xaxis.axis_label = x_label
     p.yaxis.axis_label = y_label
     p.legend.border_line_width = 3
