@@ -120,6 +120,8 @@ This course introduces the formal notions required to understand machine learnin
 for regression and classification. We discuss the mathematical derivation for optimization and various problems of overfitting, cross-validation
 and model properties and complexity that are still quintessential in modern machine learning.
 
+**[GitHub assignment](https://classroom.github.com/a/HDMjFQEL)**
+
 ---
 
 ### [02 - Neural networks](02_neural_networks.pdf)
@@ -320,7 +322,7 @@ submitted before the beginning of _Course 04 (Deep Learning)_, and that of cours
 ### List of assignments
 
 - **[00 - Setup - GitHub assignment](https://classroom.github.com/a/oTegVXe4)**
-- 01 - Machine learning - GitHub assignment (released : 25.04.17)
+- **[01 - Machine learning - GitHub assignment](https://classroom.github.com/a/HDMjFQEL)**
 - 02 - Neural networks - GitHub assignment (released : 25.04.24)
 - 03 - Advanced networks - GitHub assignment (released : 25.05.01)
 - 04 - Deep learning - GitHub assignment (released : 25.05.15)
