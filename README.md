@@ -388,12 +388,12 @@ These administrative details concerns only the current (spring) physical session
 | May 15 | 04 - Deep learning |
 | May 22 | 05 - Bayesian inference |
 | May 29 | 06 - Latent models |
-| June 5 | 07 - Approximate inference |
+| June 5 | _GX - Guest Lecture - Nao Tokui_ |
 | June 12 | **No course** |
-| June 19 | 08 - VAEs and flows |
-| June 26 | 09 - Adversarial networks |
-| July 3 | 10 - Diffusion models |
-| July 10 | 11 - Guest lecture #1 |
+| June 19 | 07 - Approximate inference |
+| June 26 | 08 - VAEs and flows |
+| July 3 | 09 - Adversarial networks |
+| July 10 | 10 - Diffusion models |
 
 ## Administrative (ATIAM - IRCAM / Autumn 2024)
 
