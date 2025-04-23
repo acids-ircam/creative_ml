@@ -135,6 +135,7 @@ This course provides a brief history of the development of neural networks along
 We discuss geometric perspectives on neurons and gradient descent and how these interpretation naturally extend to the case
 of multi-layer perceptrons. Finally, we discuss the complete implementation of backpropagation through micro-grad.
 
+**[GitHub assignment](https://classroom.github.com/a/jr49RbQV)**
 
 ---
 
@@ -323,7 +324,7 @@ submitted before the beginning of _Course 04 (Deep Learning)_, and that of cours
 
 - **[00 - Setup - GitHub assignment](https://classroom.github.com/a/oTegVXe4)**
 - **[01 - Machine learning - GitHub assignment](https://classroom.github.com/a/HDMjFQEL)**
-- 02 - Neural networks - GitHub assignment (released : 25.04.24)
+- **[02 - Neural networks - GitHub assignment](https://classroom.github.com/a/jr49RbQV)**
 - 03 - Advanced networks - GitHub assignment (released : 25.05.01)
 - 04 - Deep learning - GitHub assignment (released : 25.05.15)
 - 05 - Bayesian inference - GitHub assignment (released : 25.05.22)
