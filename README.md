@@ -444,6 +444,6 @@ Please take a look at our [contributing](CONTRIBUTING.md) guidelines if you're i
 
 ## About
 
-Code and documentation copyright 2012-2023 by all members of ACIDS. 
+Code and documentation copyright 2012-2042 by all members of ACIDS. 
 
 Code released under the [CC-BY-NC-SA 4.0 licence](https://creativecommons.org/licenses/by-nc-sa/4.0/).
