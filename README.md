@@ -150,6 +150,8 @@ In this course we introduce more advanced types of neural networks such as convo
 with more advanced models (LSTM, GRU) and recent developments such as residual architectures.
 We further discuss issues of regularization and initialization in networks.
 
+**[GitHub assignment](https://classroom.github.com/a/WYsfIhhA)**
+
 ---
 
 ### [04 - Deep learning](04_deep_learning.pdf)
@@ -325,7 +327,7 @@ submitted before the beginning of _Course 04 (Deep Learning)_, and that of cours
 - **[00 - Setup - GitHub assignment](https://classroom.github.com/a/oTegVXe4)**
 - **[01 - Machine learning - GitHub assignment](https://classroom.github.com/a/HDMjFQEL)**
 - **[02 - Neural networks - GitHub assignment](https://classroom.github.com/a/jr49RbQV)**
-- 03 - Advanced networks - GitHub assignment (released : 25.05.01)
+- **[03 - Advanced networks - GitHub assignment](https://classroom.github.com/a/WYsfIhhA)**
 - 04 - Deep learning - GitHub assignment (released : 25.05.15)
 - 05 - Bayesian inference - GitHub assignment (released : 25.05.22)
 - 06 - Latent models - GitHub assignment (released : 25.05.29)
