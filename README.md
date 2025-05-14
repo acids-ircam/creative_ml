@@ -166,6 +166,8 @@ and auto-encoders. We discuss how these are now less relevant through novel regu
 We finish this course by discussing the recent attention mechanism and transformer architectures and
 provide a set of modern applications.
 
+**[GitHub assignment](https://classroom.github.com/a/7uIq36HO)**
+
 ---
 
 ### [05 - Probabilities and Bayesian inference](05_probabilities_bayesian.pdf)
@@ -328,7 +330,7 @@ submitted before the beginning of _Course 04 (Deep Learning)_, and that of cours
 - **[01 - Machine learning - GitHub assignment](https://classroom.github.com/a/HDMjFQEL)**
 - **[02 - Neural networks - GitHub assignment](https://classroom.github.com/a/jr49RbQV)**
 - **[03 - Advanced networks - GitHub assignment](https://classroom.github.com/a/WYsfIhhA)**
-- 04 - Deep learning - GitHub assignment (released : 25.05.15)
+- **[04 - Deep learning - GitHub assignment](https://classroom.github.com/a/7uIq36HO)**
 - 05 - Bayesian inference - GitHub assignment (released : 25.05.22)
 - 06 - Latent models - GitHub assignment (released : 25.05.29)
 - 07 - Variational inference - GitHub assignment (released : 25.06.05)
