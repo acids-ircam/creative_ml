@@ -180,6 +180,8 @@ provide a set of modern applications.
 To operate the shift towards generative models, we introduce here the fundamentals of probabilities, distribution and inference.
 We discuss several properties and introduce Bayesian inference by developing the mathematical foundations of 
 Maximum A Posteriori (MAP) and Maximum Likelihood (ML) techniques.
+
+**[GitHub assignment](https://classroom.github.com/a/AdutEaTA)**
     
 ---
 
@@ -331,7 +333,7 @@ submitted before the beginning of _Course 04 (Deep Learning)_, and that of cours
 - **[02 - Neural networks - GitHub assignment](https://classroom.github.com/a/jr49RbQV)**
 - **[03 - Advanced networks - GitHub assignment](https://classroom.github.com/a/WYsfIhhA)**
 - **[04 - Deep learning - GitHub assignment](https://classroom.github.com/a/7uIq36HO)**
-- 05 - Bayesian inference - GitHub assignment (released : 25.05.22)
+- **[05 - Bayesian inference - GitHub assignment](https://classroom.github.com/a/AdutEaTA)**
 - 06 - Latent models - GitHub assignment (released : 25.05.29)
 - 07 - Variational inference - GitHub assignment (released : 25.06.05)
 - 08 - Normalizing flows - GitHub assignment (released : 25.06.19)
