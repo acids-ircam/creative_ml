@@ -196,6 +196,8 @@ We discuss the distinction between supervised and unsupervised learning, through
 This allows to introduce the notion of latent variables and how we can solve for this using Expectation-Maximization (EM).
 We provide the full derivation through Variational inference and discuss the implementation of Gaussian Mixture Models (GMM)
 
+**[GitHub assignment](https://classroom.github.com/a/tNjVEbGr)**
+
 ---
 
 ### [07 - Approximate inference](07_approximate_inference.pdf)
@@ -334,7 +336,7 @@ submitted before the beginning of _Course 04 (Deep Learning)_, and that of cours
 - **[03 - Advanced networks - GitHub assignment](https://classroom.github.com/a/WYsfIhhA)**
 - **[04 - Deep learning - GitHub assignment](https://classroom.github.com/a/7uIq36HO)**
 - **[05 - Bayesian inference - GitHub assignment](https://classroom.github.com/a/AdutEaTA)**
-- 06 - Latent models - GitHub assignment (released : 25.05.29)
+- **[06 - Latent models - GitHub assignment](https://classroom.github.com/a/tNjVEbGr)**
 - 07 - Variational inference - GitHub assignment (released : 25.06.05)
 - 08 - Normalizing flows - GitHub assignment (released : 25.06.19)
 - 09 - Adversarial networks - GitHub assignment (released : 25.06.09)
